@@ -1,7 +1,13 @@
 import * as React from "react";
 import "./App.css"
 
-function App(props) {
+function App() {
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
       <>
         <div className="div">
@@ -13,10 +19,18 @@ function App(props) {
             />
             <div className="div-3">
               <div className="div-4">
-                <div className="div-5">Purdue Arc</div>
-                <div className="div-6">Sponsors</div>
-                <div className="div-7">Registration</div>
-                <div className="div-8">Contact</div>
+                <button className="nav-button" onClick={() => scrollToSection("home")}>
+                  Purdue Arc
+                </button>
+                <button className="nav-button" onClick={() => scrollToSection("sponsors")}>
+                  Sponsors
+                </button>
+                <button className="nav-button" onClick={() => scrollToSection("registration")}>
+                  Registration
+                </button>
+                <button className="nav-button" onClick={() => scrollToSection("contact")}>
+                  Contact
+                </button>
               </div>
               <img
                   loading="lazy"
@@ -50,7 +64,7 @@ function App(props) {
             <div className="div-15">Register your organization</div>
           </div>
           <div className="div-16">
-            <div className="div-17">
+            <div className="div-17" id='home'>
               ARC, now a platform for autonomy and Robotics @Purdue
             </div>
             <div className="div-18">
@@ -71,7 +85,7 @@ function App(props) {
               </div>
             </div>
           </div>
-          <div className="div-23">
+          <div className="div-23" id='sponsors'>
             <div className="div-24">Sponsors Tier 3</div>
             <div className="div-25">
               <div className="div-26">Sample Text</div>
@@ -155,7 +169,7 @@ function App(props) {
           <div className="div-48">
             <div className="div-49">
               <div className="div-50">See you there!</div>
-              <div className="div-51">Register your organization</div>
+              <div className="div-51" id='registration'>Register your organization</div>
             </div>
             <div className="div-52">
               <img
