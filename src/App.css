@@ -59,6 +59,7 @@
     justify-content: center;
   }
 }
+
 .div-5 {
   justify-content: center;
   color: #000;
@@ -899,6 +900,42 @@
   cursor: pointer;
   text-transform: uppercase;
   font: 600 15px/20px Inter, -apple-system, Roboto, Helvetica, sans-serif;
-  padding: 0;
+  padding: 15px 20px;
   margin: 0;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.nav-button:last-child {
+  margin-right: 20px;
+}
+
+.nav-button:hover {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.nav-button:active {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.nav-button-0 {
+  background-color: #39a0ff;
+  color: #fff;
+}
+
+.nav-button-1 {
+  background-color: #39a0ff;
+  color: #fff;
+}
+
+.nav-button-2 {
+  background-color: #39a0ff;
+  color: #fff;
+}
+
+.nav-button-3 {
+  background-color: #39a0ff;
+  color: #fff;
 }

@@ -8,6 +8,14 @@ function App() {
       element.scrollIntoView({ behavior: "smooth" });
     }
   };
+
+  const navButtons = [
+    { id: "home", label: "Purdue Arc" },
+    { id: "sponsors", label: "Sponsors" },
+    { id: "registration", label: "Registration" },
+    { id: "contact", label: "Contact" },
+  ];
+
   return (
       <>
         <div className="div">
@@ -19,18 +27,15 @@ function App() {
             />
             <div className="div-3">
               <div className="div-4">
-                <button className="nav-button" onClick={() => scrollToSection("home")}>
-                  Purdue Arc
-                </button>
-                <button className="nav-button" onClick={() => scrollToSection("sponsors")}>
-                  Sponsors
-                </button>
-                <button className="nav-button" onClick={() => scrollToSection("registration")}>
-                  Registration
-                </button>
-                <button className="nav-button" onClick={() => scrollToSection("contact")}>
-                  Contact
-                </button>
+                {navButtons.map((button, index) => (
+                  <button
+                    key={button.id}
+                    className={`nav-button nav-button-${index}`}
+                    onClick={() => scrollToSection(button.id)}
+                  >
+                    {button.label}
+                  </button>
+                ))}
               </div>
               <img
                   loading="lazy"
