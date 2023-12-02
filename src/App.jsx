@@ -20,7 +20,7 @@ function App() {
                     </ul>
                 </nav>
             </header>
-
+            <section className = "padding-large"></section>
             <main className="landing-main">
                 <section className="top-logos">
                     <img src={arcLogo} alt="Logo" className="top-logo" />
@@ -35,6 +35,7 @@ function App() {
                     </h1>
                     <p className="hero-date">March 30th, 2024</p>
                     <p className="hero-location">Hosted at Purdue University</p>
+                    <section className = "padding-small"></section>
                     <button className="hero-button">REGISTER YOUR INTEREST</button>
                 </section>
             </main>

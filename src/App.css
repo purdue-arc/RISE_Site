@@ -77,6 +77,8 @@
 }
 
 .hero {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -110,7 +112,6 @@
   font-size: 2vw;
   margin: 10px 0;
   color: #a6a6a6;
-
 }
 
 .hero-button {
@@ -130,6 +131,15 @@
   background: #305ba7; /* Darker shade on hover for feedback */
   box-shadow: 0.2vw 0.3vw 0.6vw black; /* Slightly more pronounced shadow on hover */
   outline: none; /* Removes the outline on focus, may need to provide alternative focus styles for accessibility */
+}
+
+.padding-small{
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+.padding-large{
+  padding-top: 4vh;
+  padding-bottom: 4vh;
 }
 
 /* Media queries and other styles ... */
