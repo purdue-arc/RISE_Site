@@ -3,7 +3,10 @@
   font-family: 'Sansation';
   src: url('./fonts/sansation/Sansation_Regular.ttf') format('truetype'); /* Path to your sansation font file */
 }
-
+@font-face {
+  font-family: 'Sansation-Light';
+  src: url('./fonts/sansation/Sansation_Light.ttf') format('truetype'); /* Path to your sansation font file */
+}
 @font-face {
   font-family: 'Space Age';
   src: url('./fonts/space_age/Space_Age.ttf') format('truetype'); /* Path to your Space Age font file */
@@ -60,6 +63,18 @@
   font-weight: bold;
   line-height: 4vw;
 }
+.top-logos {
+  width: 50%;
+  padding-left: 25%;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+.top-logo {
+  height: auto;
+  width: 14vw;
+  padding-right: 2vw;
+  padding-left: 2vw;
+}
 
 .hero {
   display: flex;
@@ -68,7 +83,13 @@
   align-items: center;
   height: 80%;
 }
-
+.name-text {
+  font-family: 'Sansation-Light', sans-serif;
+  font-size: 1.8vw; /* Adjust the size as needed */
+  color: #3871c1;
+  text-shadow: #3871c1 0 0 1vw;
+  margin: 0;
+}
 .hero-text {
   font-family: 'Sansation', sans-serif;
   font-size: 12vw; /* Adjust the size as needed */

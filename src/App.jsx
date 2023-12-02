@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css'; // Link to your stylesheet
 import riseLogo from './assets/riselogo.png' ;
+import arcLogo from './assets/arclogo.png' ;
+import purdueMessage from './assets/purdue_message.png' ;
 function App() {
     return (
         <div className="landing-page">
@@ -20,7 +22,14 @@ function App() {
             </header>
 
             <main className="landing-main">
+                <section className="top-logos">
+                    <img src={arcLogo} alt="Logo" className="top-logo" />
+                    <img src={purdueMessage} alt="Logo" className="top-logo" />
+                </section>
                 <section className="hero">
+                    <h2 className = "name-text">
+                        ROBOTICS AND INTELLIGENCE SYSTEMS EXPO
+                    </h2>
                     <h1 className="hero-text">
                         R. I. <span className="hero-number">2</span>. E.
                     </h1>
