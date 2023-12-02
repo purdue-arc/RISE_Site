@@ -36,10 +36,9 @@ function App() {
                     <p className="hero-date">March 30th, 2024</p>
                     <p className="hero-location">Hosted at Purdue University</p>
                     <section className = "padding-small"></section>
-                    <button className="hero-button"><a href="register">REGISTER YOUR INTEREST</a></button>
+                    <button className="hero-button"><a style={{color:"#ffffff", textDecoration: "none"}}href="register">REGISTER YOUR INTEREST</a></button>
                 </section>
             </main>
-
             {/* Add footer if needed */}
         </div>
     );
