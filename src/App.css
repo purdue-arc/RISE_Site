@@ -1,32 +1,64 @@
 /* App.css */
+@font-face {
+  font-family: 'Sansation';
+  src: url('./fonts/sansation/Sansation_Regular.ttf') format('truetype'); /* Path to your sansation font file */
+}
+
+@font-face {
+  font-family: 'Space Age';
+  src: url('./fonts/space_age/Space_Age.ttf') format('truetype'); /* Path to your Space Age font file */
+}
+
 .landing-page {
-  background: url('your-background-pattern.jpg') center center/cover no-repeat; /* replace with your actual background image */
+  background: #041b3a center center/cover no-repeat; /* Replace with your actual background image */
   font-family: 'Arial', sans-serif;
   color: white;
   text-align: center;
-  height: 100vh; /* Full viewport height */
+  height: 100vh;
 }
 
 .landing-header {
-  padding: 20px;
-  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  flex-direction: row;
+  padding: 1vw;
+  background: rgb(2, 14, 31);
+  align-items: center;
 }
-
 .landing-nav ul {
   list-style: none;
   padding: 0;
+  margin: 0;
+  display: flex; /* Align nav items in a row */
+  align-items: center;
+  height: 100%;
+}
+
+.header-logo {
+  /* Adjust the size of your logo as necessary */
+  height: auto; /* Example height for your logo */
+  width: 10vw;
+  align-self: center;
+  padding-right: 32vw;
+}
+
+.nav-link {
+  /* Adjust the size of your logo as necessary */
+  height: 4vh; /* Example height for your logo */
 }
 
 .landing-nav ul li {
-  display: inline;
-  margin-right: 20px;
+  height: 4vw;
+  margin-left: 3vw;
 }
 
-.landing-nav a {
+.landing-nav ul li a {
+  font-family: 'Sansation', sans-serif;
+  font-size: 1vw;
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
+  line-height: 4vw;
 }
 
 .hero {
@@ -34,41 +66,49 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 80%; /* Adjust based on your design */
+  height: 80%;
 }
 
-.hero img {
-  max-width: 90%; /* Adjust based on your asset */
-  margin-bottom: 20px;
+.hero-text {
+  font-family: 'Sansation', sans-serif;
+  font-size: 12vw; /* Adjust the size as needed */
+  text-shadow: #3871c1 0 0 2vw;
+  margin: 0;
+}
+
+.hero-text .hero-number {
+  font-family: 'Sansation', sans-serif;
+  font-size: 12vw;
+  color: #01a6e8;
+  text-shadow: #01a6e8 0 0 1vw;
+  /* Additional styling for the number '2' if necessary */
 }
 
 .hero-date, .hero-location {
-  font-size: 1.5rem; /* Adjust font size as needed */
+  font-family: 'Sansation', sans-serif;
+  font-size: 2vw;
   margin: 10px 0;
+  color: #a6a6a6;
+
 }
 
 .hero-button {
-  background-color: #0044cc; /* Button background color */
-  border: none;
-  border-radius: 5px;
-  color: white;
-  padding: 10px 20px;
-  font-size: 1.2rem;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  font-family: 'Sansation', sans-serif;
+  font-size: 1.25vw; /* Increased the font size for better readability */
+  color: #ffffff;
+  background: #3871c1;
+  padding: 1vw 2vw; /* Add some padding around the text */
+  border: none; /* Removes the border */
+  border-radius: 0.2vw; /* Slightly rounded corners */
+  box-shadow: 0.1vw 0.15vw 0.5vw black; /* Subtle shadow to give depth */
+  cursor: pointer; /* Changes the cursor to indicate it's clickable */
+  transition: background-color 0.2s, box-shadow 0.2s; /* Smooth transition for hover effects */
 }
 
-.hero-button:hover {
-  background-color: #003399; /* Darker shade on hover */
+.hero-button:hover, .hero-button:focus {
+  background: #305ba7; /* Darker shade on hover for feedback */
+  box-shadow: 0.2vw 0.3vw 0.6vw black; /* Slightly more pronounced shadow on hover */
+  outline: none; /* Removes the outline on focus, may need to provide alternative focus styles for accessibility */
 }
 
-@media (max-width: 768px) {
-  .landing-nav ul li {
-    display: block;
-    margin-bottom: 10px;
-  }
-
-  .hero-date, .hero-location {
-    font-size: 1rem;
-  }
-}
+/* Media queries and other styles ... */
