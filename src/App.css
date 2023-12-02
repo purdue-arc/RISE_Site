@@ -120,6 +120,7 @@
   font-size: 1.25vw; /* Increased the font size for better readability */
   color: #ffffff;
   background: #3871c1;
+  text-decoration: none;
   padding: 1vw 2vw; /* Add some padding around the text */
   border: none; /* Removes the border */
   border-radius: 0.2vw; /* Slightly rounded corners */
