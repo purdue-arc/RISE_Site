@@ -1,8 +1,9 @@
 import React from 'react';
-import './App.css'; // Link to your stylesheet
+import './App.css';
 import riseLogo from './assets/riselogo.png' ;
 import arcLogo from './assets/arclogo.png' ;
 import purdueMessage from './assets/purdue_message.png' ;
+import Footer from "./Footer";
 function App() {
     return (
         <div className="landing-page">
@@ -20,7 +21,7 @@ function App() {
                     </ul>
                 </nav>
             </header>
-            <section className = "padding-large"></section>
+            <section className = "padding-med"></section>
             <main className="landing-main">
                 <section className="top-logos">
                     <img src={arcLogo} alt="Logo" className="top-logo" />
@@ -39,7 +40,8 @@ function App() {
                     <button className="hero-button"><a style={{color:"#ffffff", textDecoration: "none"}}href="register">REGISTER YOUR INTEREST</a></button>
                 </section>
             </main>
-            {/* Add footer if needed */}
+            <section className = "padding-large"></section>
+            <Footer></Footer>
         </div>
     );
 }

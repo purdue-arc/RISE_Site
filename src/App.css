@@ -13,8 +13,8 @@
 }
 
 .landing-page {
-  background: #041b3a center center/cover no-repeat; /* Replace with your actual background image */
-  background-image: url("./assets/background.png");
+  /* Replace with your actual background image */
+  background: #041b3a url("./assets/background.jpeg") no-repeat center center;
   font-family: 'Arial', sans-serif;
   color: white;
   text-align: center;
@@ -139,9 +139,12 @@
   padding-top: 2vh;
   padding-bottom: 2vh;
 }
-.padding-large{
+.padding-med{
   padding-top: 4vh;
   padding-bottom: 4vh;
 }
-
+.padding-large{
+  padding-top: 6vh;
+  padding-bottom: 6vh;
+}
 /* Media queries and other styles ... */

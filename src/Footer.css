@@ -1,0 +1,54 @@
+/* App.css */
+.landing-footer {
+    background-color: #000; /* Black background for the footer */
+    color: #fff; /* White text color */
+}
+
+.footer-top {
+    background-color: #fff; /* White background for the top part */
+    padding: 1vw; /* Adjust the padding as needed */
+    text-align: center; /* Center the logos */
+}
+
+.footer-logos {
+    max-width: 100%; /* Ensure the image is responsive and fits the container */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between; /* Space between follow us and social icons */
+    align-items: center; /* Vertically center items */
+    padding: 4vh;
+}
+
+.follow-us {
+    display: flex;
+    align-items: self-start; /* Align the follow us text and image */
+}
+.follow-text,.rise2-text {
+    font-family: 'Sansation', sans-serif;
+    font-size: 1vw;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 4vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.follow-us img {
+    margin-right: 0.5vw; /* Space between the icon and the text */
+}
+
+.social-icons a {
+    margin-right: 1vw; /* Space between social icons */
+}
+
+.social-icons img {
+    width: 2vw; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Add media queries as necessary for responsiveness */
