@@ -6,7 +6,7 @@ import linkedinIcon from './assets/arclogo.png'; // Import your LinkedIn icon
 
 function Footer() {
     return (
-        <div className="landing-page">
+        <div>
             <footer className="landing-footer">
                 <div className="footer-top">
                     <img src={footerLogoStrip} alt="Sponsor Logos" className="footer-logos" />

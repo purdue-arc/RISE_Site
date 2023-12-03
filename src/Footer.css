@@ -24,11 +24,11 @@
 
 .follow-us {
     display: flex;
-    align-items: self-start; /* Align the follow us text and image */
+    align-items: center; /* Align the follow us text and image */
 }
 .follow-text,.rise2-text {
     font-family: 'Sansation', sans-serif;
-    font-size: 1vw;
+    font-size: 1.5vw;
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
@@ -38,17 +38,11 @@
     padding-right: 2vw;
 }
 
-.follow-us img {
-    margin-right: 0.5vw; /* Space between the icon and the text */
-}
-
 .social-icons a {
     margin-right: 1vw; /* Space between social icons */
 }
 
 .social-icons img {
-    width: 2vw; /* Adjust size as needed */
+    width: 6vw; /* Adjust size as needed */
     height: auto; /* Maintain aspect ratio */
 }
-
-/* Add media queries as necessary for responsiveness */

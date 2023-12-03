@@ -14,7 +14,8 @@
 
 .landing-page {
   /* Replace with your actual background image */
-  background: #041b3a url("./assets/background.jpeg") no-repeat center center;
+  background: #041b3a url("./assets/background.jpeg");
+  background-size: contain;
   font-family: 'Arial', sans-serif;
   color: white;
   text-align: center;
