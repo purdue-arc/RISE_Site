@@ -1,15 +1,15 @@
 /* App.css */
 @font-face {
   font-family: 'Sansation';
-  src: url('./fonts/sansation/Sansation_Regular.ttf') format('truetype'); /* Path to your sansation font file */
+  src: url('components/fonts/sansation/Sansation_Regular.ttf') format('truetype'); /* Path to your sansation font file */
 }
 @font-face {
   font-family: 'Sansation-Light';
-  src: url('./fonts/sansation/Sansation_Light.ttf') format('truetype'); /* Path to your sansation font file */
+  src: url('components/fonts/sansation/Sansation_Light.ttf') format('truetype'); /* Path to your sansation font file */
 }
 @font-face {
   font-family: 'Space Age';
-  src: url('./fonts/space_age/Space_Age.ttf') format('truetype'); /* Path to your Space Age font file */
+  src: url('components/fonts/space_age/Space_Age.ttf') format('truetype'); /* Path to your Space Age font file */
 }
 
 .landing-page {
