@@ -1,20 +1,20 @@
-/* App.css */
+/* Main.css */
 @font-face {
   font-family: 'Sansation';
-  src: url('./fonts/sansation/Sansation_Regular.ttf') format('truetype'); /* Path to your sansation font file */
+  src: url('fonts/sansation/Sansation_Regular.ttf') format('truetype'); /* Path to your sansation font file */
 }
 @font-face {
   font-family: 'Sansation-Light';
-  src: url('./fonts/sansation/Sansation_Light.ttf') format('truetype'); /* Path to your sansation font file */
+  src: url('fonts/sansation/Sansation_Light.ttf') format('truetype'); /* Path to your sansation font file */
 }
 @font-face {
   font-family: 'Space Age';
-  src: url('./fonts/space_age/Space_Age.ttf') format('truetype'); /* Path to your Space Age font file */
+  src: url('fonts/space_age/Space_Age.ttf') format('truetype'); /* Path to your Space Age font file */
 }
 
 .landing-page {
   /* Replace with your actual background image */
-  background: #041b3a url("./assets/background.jpeg");
+  background: #041b3a url("../src/components/assets/background.jpeg");
   background-size: contain;
   font-family: 'Arial', sans-serif;
   color: white;
