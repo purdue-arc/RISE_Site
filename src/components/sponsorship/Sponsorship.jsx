@@ -4,7 +4,7 @@ import riseLogo from '../assets/riselogo.png' ;
 import arcLogo from '../assets/arclogo.png' ;
 import purdueMessage from '../assets/purdue_message.png' ;
 import Footer from "../../Footer";
-function Main() {
+function Registration() {
     return (
         <div className="landing-page">
             <header className="landing-header">
@@ -46,4 +46,4 @@ function Main() {
     );
 }
 
-export default Main;
+export default Registration;
