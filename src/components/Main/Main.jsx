@@ -3,7 +3,7 @@ import '../../Main.css';
 import riseLogo from '../assets/riselogo.png' ;
 import arcLogo from '../assets/arclogo.png' ;
 import purdueMessage from '../assets/purdue_message.png' ;
-import Footer from "../../Footer";
+import Footer from "../footer/Footer";
 function Main() {
     return (
         <div className="landing-page">
