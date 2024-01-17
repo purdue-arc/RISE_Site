@@ -3,7 +3,7 @@ import '../../Main.css';
 import riseLogo from '../assets/riselogo.png' ;
 import arcLogo from '../assets/arclogo.png' ;
 import purdueMessage from '../assets/purdue_message.png' ;
-import Footer from "../footer/Footer";
+import Footer from "../../Footer";
 function Main() {
     return (
         <div className="landing-page">
@@ -11,7 +11,7 @@ function Main() {
                 <nav className="landing-nav">
                     <ul>
                         <a href="/" className="header-logo-link">
-                            <img src={riseLogo} alt="Logo" className="header-logo" />
+                            <img src={riseLogo} alt="Logo" className="header-logo"/>
                         </a>
                         <li className="nav-link"><a href="/about">ABOUT</a></li>
                         <li className="nav-link"><a href="/registration">REGISTRATION</a></li>
@@ -21,14 +21,14 @@ function Main() {
                     </ul>
                 </nav>
             </header>
-            <section className = "padding-med"></section>
+            <section className="padding-med"></section>
             <main className="landing-main">
                 <section className="top-logos">
-                    <img src={arcLogo} alt="Logo" className="top-logo" />
-                    <img src={purdueMessage} alt="Logo" className="top-logo" />
+                    <img src={arcLogo} alt="Logo" className="top-logo"/>
+                    <img src={purdueMessage} alt="Logo" className="top-logo"/>
                 </section>
                 <section className="hero">
-                    <h2 className = "name-text">
+                    <h2 className="name-text">
                         ROBOTICS AND INTELLIGENCE SYSTEMS EXPO
                     </h2>
                     <h1 className="hero-text">
@@ -36,11 +36,27 @@ function Main() {
                     </h1>
                     <p className="hero-date">March 30th, 2024</p>
                     <p className="hero-location">Hosted at Purdue University</p>
-                    <section className = "padding-small"></section>
-                    <button className="hero-button"><a style={{color:"#ffffff", textDecoration: "none"}}href="register">REGISTER YOUR INTEREST</a></button>
+                    <section className="padding-small"></section>
+                    <button className="hero-button"><a style={{color: "#ffffff", textDecoration: "none"}}
+                                                       href="register">REGISTER YOUR INTEREST</a></button>
                 </section>
             </main>
-            <section className = "padding-large"></section>
+            <section className="padding-large"></section>
+            <div className="greybox">
+
+                <p>
+                    Created by the Autonomous Robotics Club (ARC) in partnership with the Institute for Networks,
+                    Optimization, and Control (ICON), the Robotics and Intelligent Systems Expo (RISE) aims to be on the
+                    frontier of showcasing innovation in the fields of robotics and autonomy. RISE's primary goal is to
+                    immerse attendees in the dynamic world of robotics and AI, showcasing the vast opportunities in
+                    these domains and igniting interest among students and faculty. This is achieved through robotics
+                    demonstrations, enlightening presentations, and engaging networking sessions. Hosted at Purdue
+                    University, RISE will showcase the cutting-edge research and technology developed by the students
+                    and faculty at one of the top engineering institutions in the country.
+                </p>
+                <button className="hero-button-2"><a style={{color: "blue", textDecoration: "none"}}
+                                                   href="register">INFORMATION PACKET</a></button>
+            </div>
             <Footer></Footer>
         </div>
     );

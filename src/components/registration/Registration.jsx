@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../Main.css';
 import riseLogo from '../assets/riselogo.png' ;
-import Footer from '../footer/Footer';
+import Footer from "../../Footer";
 function Register() {
     return (
         <div className="landing-page">

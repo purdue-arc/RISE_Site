@@ -3,8 +3,8 @@ import '../../Main.css';
 import riseLogo from '../assets/riselogo.png' ;
 import arcLogo from '../assets/arclogo.png' ;
 import purdueMessage from '../assets/purdue_message.png' ;
-import Footer from "../footer/Footer";
-function Registration() {
+import Footer from "../../Footer";
+function Sponsor() {
     return (
         <div className="landing-page">
             <header className="landing-header">
@@ -46,4 +46,4 @@ function Registration() {
     );
 }
 
-export default Registration;
+export default Sponsor;

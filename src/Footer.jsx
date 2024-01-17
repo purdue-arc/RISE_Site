@@ -1,8 +1,8 @@
 import React from 'react';
 import './Footer.css'; // Link to your stylesheet
-import footerLogoStrip from '../assets/logo_strip.png'; // Import your combined image asset for the white bar
-import instagramIcon from '../assets/arclogo.png'; // Import your Instagram icon
-import linkedinIcon from '../assets/arclogo.png'; // Import your LinkedIn icon
+import footerLogoStrip from './components/assets/logo_strip.png'; // Import your combined image asset for the white bar
+import instagramIcon from './components/assets/arclogo.png'; // Import your Instagram icon
+import linkedinIcon from './components/assets/arclogo.png'; // Import your LinkedIn icon
 
 function Footer() {
     return (
