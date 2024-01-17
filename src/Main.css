@@ -22,6 +22,28 @@
   height: 100vh;
 }
 
+
+.greybox {
+  background-color: #BFC3C6;
+  padding: 20px;
+  color: black;
+  height: calc(50vh - 40px);
+  font-family: 'Sansation', sans-serif;
+  overflow-y: auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+  border-radius: 8px; /* Slight border radius */
+  text-align: center; /* Center-align text */
+  line-height: 1.6; /* Adjust line height for better readability */
+}
+
+.greybox p {
+  margin: 0;
+  font-size: 16px; /* Adjust font size for better readability */
+}
+
+
+
+
 .landing-header {
   display: flex;
   flex-direction: row;
@@ -101,6 +123,14 @@
   margin: 0;
 }
 
+.other-text{
+  font-family: 'Sansation', sans-serif;
+  font-size: 7vw; /* Adjust the size as needed */
+  color: #00a5e7;
+  text-shadow: #3871c1 0 0 2vw;
+  margin: 0;
+}
+
 .hero-text .hero-number {
   font-family: 'Sansation', sans-serif;
   font-size: 12vw;
@@ -135,6 +165,27 @@
   box-shadow: 0.2vw 0.3vw 0.6vw black; /* Slightly more pronounced shadow on hover */
   outline: none; /* Removes the outline on focus, may need to provide alternative focus styles for accessibility */
 }
+
+.hero-button-2 {
+  font-family: 'Sansation', sans-serif;
+  font-size: 1.25vw; /* Increased the font size for better readability */
+  color: #305ba7;
+  background: #ffffff;
+  text-decoration: none;
+  padding: 1vw 2vw; /* Add some padding around the text */
+  border: none; /* Removes the border */
+  border-radius: 0.2vw; /* Slightly rounded corners */
+  box-shadow: 0.1vw 0.15vw 0.5vw black; /* Subtle shadow to give depth */
+  cursor: pointer; /* Changes the cursor to indicate it's clickable */
+  transition: background-color 0.2s, box-shadow 0.2s; /* Smooth transition for hover effects */
+}
+
+.hero-button-2:hover, .hero-button:focus {
+  background: #ffffff; /* Darker shade on hover for feedback */
+  box-shadow: 0.2vw 0.3vw 0.6vw black; /* Slightly more pronounced shadow on hover */
+  outline: none; /* Removes the outline on focus, may need to provide alternative focus styles for accessibility */
+}
+
 
 .padding-small{
   padding-top: 2vh;
