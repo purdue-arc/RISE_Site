@@ -1,15 +1,10 @@
- import React from 'react';
+import React from 'react';
 import '../../Main.css';
 import riseLogo from '../assets/riselogo.png' ;
 import arcLogo from '../assets/arclogo.png' ;
 import purdueMessage from '../assets/purdue_message.png' ;
-<<<<<<< HEAD
 import Footer from "../../Footer";
 function Program() {
-=======
-import Footer from "../../Footer";
-function Registration() {
->>>>>>> dd34295e05bea10ea764a1d2803904cc7a30d133
     return (
         <div className="landing-page">
             <header className="landing-header">
