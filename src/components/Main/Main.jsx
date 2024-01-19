@@ -54,6 +54,7 @@ function Main() {
                     University, RISE will showcase the cutting-edge research and technology developed by the students
                     and faculty at one of the top engineering institutions in the country.
                 </p>
+                <div className="padding-small"></div>
                 <button className="hero-button-2"><a style={{color: "blue", textDecoration: "none"}}
                                                    href="register">INFORMATION PACKET</a></button>
             </div>
