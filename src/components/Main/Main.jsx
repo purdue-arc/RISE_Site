@@ -1,9 +1,9 @@
 import React from 'react';
-import '../../Main.css';
-import riseLogo from '../assets/riselogo.png' ;
-import arcLogo from '../assets/arclogo.png' ;
-import purdueMessage from '../assets/purdue_message.png' ;
 import Footer from "../../Footer";
+import '../../Main.css';
+import arcLogo from '../assets/arclogo.png';
+import purdueMessage from '../assets/purdue_message.png';
+import riseLogo from '../assets/riselogo.png';
 function Main() {
     return (
         <div className="landing-page">
