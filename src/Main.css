@@ -50,6 +50,25 @@
   /* Adjust line height for better readability */
 }
 
+
+.bluebox {
+  background-color: #002360;
+  padding: 10vh;
+  color: black;
+  height: calc(30vh - 40px);
+  font-family: 'Sansation', sans-serif;
+  overflow-y: auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Subtle box shadow */
+  border-radius: 8px;
+  /* Slight border radius */
+  text-align: center;
+  /* Center-align text */
+  line-height: 1.6;
+  /* Adjust line height for better readability */
+}
+
+
 .greybox p {
   margin: 0;
   font-size: 16px;
@@ -277,8 +296,10 @@
 }
 
 .item-row img {
-  width: 25vw; /* Adjust as necessary */
-  height: auto; /* Adjust for aspect ratio */
+  width: 25vw;
+  /* Adjust as necessary */
+  height: auto;
+  /* Adjust for aspect ratio */
 }
 
 .item-row p {

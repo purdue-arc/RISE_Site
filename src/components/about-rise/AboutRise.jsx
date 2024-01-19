@@ -20,6 +20,9 @@ function aboutRise() {
                         </p>
                     </div>
                     <button class="cta-button">INITIAL RISE ARTICLE</button>
+                    <div className="bluebox">
+                        <p align style={{color:"white"}}>The Autonomous Robotics Club of Purdue provides an open space for members to explore the field of autonomous robotics through building and simulating robotic systems. This hands-on project work allows them to apply programming skills, problem-solving abilities, and teamwork in a collaborative environment, enhancing their practical skills and preparing them for future careers in the tech industry. Any Purdue student may join the club, without any experience or financial barriers in their way. While working on the projects, students are expected to share their knowledge with the greater community through outreach events and public demonstrations, fostering communication and presentation skills.</p>
+                    </div>
                 </div>
             </main>
         </>
