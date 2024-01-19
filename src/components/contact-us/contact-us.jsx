@@ -7,7 +7,7 @@ import Footer from "../../Footer";
 
 function Contact() {
     return (
-        <div className="landing-page">
+        <div className="landing-adjust">
             <header className="landing-header">
                 <nav className="landing-nav">
                     <ul>
@@ -23,28 +23,37 @@ function Contact() {
                 </nav>
             </header>
             <section className="padding-med"></section>
-            <main className="landing-main">
-                <section className="top-logos">
-                    <img src={arcLogo} alt="Logo" className="top-logo"/>
-                    <img src={purdueMessage} alt="Logo" className="top-logo"/>
-                </section>
-                <section className="hero">
-                <h2 className = "name-text">
-                        ROBOTICS AND INTELLIGENCE SYSTEMS EXPO
-                    </h2>
-                    <h1 className="hero-text">
-                        R. I. <span className="hero-number">2</span>. E.
-                    </h1>
-                    <p className="hero-date">March 30th, 2024</p>
-                    <p className="hero-location">Hosted at Purdue University</p>
-                    <section className = "padding-small"></section>
-                    <button className="hero-button"><a style={{color:"#ffffff", textDecoration: "none"}}href="register">REGISTER YOUR INTEREST</a></button>
-                </section>
+            <main className="landing-adjust">
+                <div className="content-container">
+                    <h1 className="title">CONTACT RISE!</h1>
+                    <div className="item-row left-image">
+                        <img src="https://i.imgur.com/H0i31s4.png"/>
+                        <p>
+                            autonomy@purdue.edu
+                        </p>
+                    </div>
+                    <div className="item-row right-image">
+                        <img src="https://i.imgur.com/sPnrw98.png"/>
+                        <p>
+                            Revanth Senthil (ARC Vice President),
+                            senthilr@purdue.edu
+                            Aytaj Aslani (ARC treasurer),
+                            aaslanli@purdue.edu
+                            Vijay Muthukumar (Rise Director),
+                            vmuthuku@purdue.edu
+                            Haddy Alchaer (ARC President),
+                            halchaer@purdue.edu
+                            Mouli Sangita (ARC Operations Chair),
+                            msangita@purdue.edu
+                        </p>
+                    </div>
+                </div>
+
             </main>
-            <section className = "padding-large"></section>
+            <section className="padding-large"></section>
             <Footer></Footer>
         </div>
-    );
+);
 }
 
 export default Contact;
