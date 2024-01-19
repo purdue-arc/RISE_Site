@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../../../fonts/poppins/Poppins-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Sansation';
+    src: url('../../../fonts/sansation/Sansation_Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Sansation-Bold';
+    src: url('../../../fonts/sansation/Sansation_Bold.ttf') format('truetype');
+}
+
+.location-details {
+    background: #BFC3C6;
+    display: flex;
+    flex-direction: row;
+    align-items: self-start;
+    border: 1px solid #ccc;
+    padding: 15vh 5vw 15vh 5vw;
+}
+
+.location-image-container {
+    padding-right: 5vw;
+}
+
+.location-image-container img {
+    width: 40vw;
+    height: auto;
+}
+
+.location-content {
+    flex: 2;
+    max-width: 35vw;
+}
+.full-location{
+    display: flex;
+}
+.location{
+    font-family: 'Sansation-Bold', sans-serif;
+    color: black; /* Dark blue color */
+    font-size: 2vw;
+    padding-right: 1vw;
+}
+.location-text{
+    font-family: 'Sansation', sans-serif;
+    color: black; /* Dark blue color */
+    font-size: 2vw;
+}
+
+.location-content p {
+    font-family: Poppins, sans-serif;
+    color: #333;
+    text-align: start;
+    line-height: 1.6;
+}
+.address {
+    font-family: 'Sansation', sans-serif;
+    font-size: 1vw;
+}
