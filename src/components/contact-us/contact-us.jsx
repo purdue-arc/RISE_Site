@@ -1,4 +1,4 @@
- import React from 'react';
+import React from 'react';
 import '../../Main.css';
 import riseLogo from '../assets/riselogo.png' ;
 import arcLogo from '../assets/arclogo.png' ;
@@ -53,7 +53,7 @@ function Contact() {
             <section className="padding-large"></section>
             <Footer></Footer>
         </div>
-);
+    );
 }
 
 export default Contact;
