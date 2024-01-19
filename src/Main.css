@@ -6,6 +6,11 @@
 }
 
 @font-face {
+  font-family: 'Poppins';
+  src: url('fonts/poppins/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
   font-family: 'Sansation-Light';
   src: url('fonts/sansation/Sansation_Light.ttf') format('truetype');
   /* Path to your sansation font file */
@@ -277,7 +282,7 @@
 }
 
 .item-row p {
-  font-family: 'Sansation', sans-serif;
+  font-family: 'Poppins', sans-serif;
   flex: 1;
   text-align: left;
   font-size: 1.4vw;

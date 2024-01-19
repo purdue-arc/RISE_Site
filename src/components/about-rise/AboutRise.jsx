@@ -1,5 +1,6 @@
 import React from "react";
 import '../../Main.css';
+//todo: change fonts of <p> classes to: Poppins
 function aboutRise() {
     return(
         <>
