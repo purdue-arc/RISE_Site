@@ -14,8 +14,9 @@ const LocationDetails = () => {
 
                 <h2 className="full-location"><div className="location">Venue:</div><div className="location-text">The Stewart Center</div> </h2>
                 <p>The Stewart Center serves as a dedicated facility at the university for meetings, conferences, and activities.</p>
+                <p className="address">Address: 128 Memorial Mall Dr, West Lafayette, IN 47907</p>
             </div>
-            <p className="address">Address: 128 Memorial Mall Dr, West Lafayette, IN 47907</p>
+
         </div>
     );
 };
