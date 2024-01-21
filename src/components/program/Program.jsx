@@ -30,6 +30,7 @@ function Program() {
             <section className="padding-large"></section>
 
             <LocationDetails/>
+            <div className="padding-med"></div>
             <div class="item-row left-image">
                 <img src="https://placehold.co/400x400"
                      alt="A group of people engaged in a discussion in front of a poster presentation at a robotics and AI expo"/>
