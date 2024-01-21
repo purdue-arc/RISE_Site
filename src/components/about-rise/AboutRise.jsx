@@ -34,7 +34,8 @@ function aboutRise() {
                         </p>
                     </div>
 
-                    <div className="bluebox" style={{display: 'flex', alignItems: 'center', height: '100%'}}>
+                    <div className="bluebox" style={{alignItems: 'center', height: '100%'}}>
+                        <div style={{display: 'flex', alignItems: 'center', height: '100%'}}>
                         <img src="https://i.imgur.com/0WmRC2K.png" alt="Logo" style={{marginRight: '10px'}}/>
 
                         <p align style={{color: "white", flex: '1'}}>
@@ -48,6 +49,7 @@ function aboutRise() {
                             community through outreach events and public demonstrations, fostering communication and
                             presentation skills.
                         </p>
+                        </div>
                         <a href="https://purduearc.com"
                            style={{textDecoration: 'none', marginTop: '15px'}}>
                             <button style={{
@@ -65,7 +67,8 @@ function aboutRise() {
                         </a>
                     </div>
 
-                    <div className="greyboxIcon" style={{display: 'flex', alignItems: 'center', height:'100%'}}>
+                    <div className="greyboxIcon" style={{alignItems: 'center', height:'100%'}}>
+                        <div style={{display: 'flex', alignItems: 'center', height: '100%'}}>
                         <img src="https://i.imgur.com/ZWrXwhp.png" alt="Logo" style={{marginRight: '10px'}}/>
                         <p align style={{color: "white", flex: '1'}}>
                             The Institute for Control, Optimization and Networks (ICON) at Purdue University integrates
@@ -79,6 +82,7 @@ function aboutRise() {
                             For ICON to better serve the needs of industrial partners and further enhance collaboration
                             with industry in these areas, ICON offers options for annual membership.
                         </p>
+                        </div>
                         <a href="https://engineering.purdue.edu/ICON" style={{textDecoration: 'none'}}>
                             <button style={{
                                 backgroundColor: '#475569',
