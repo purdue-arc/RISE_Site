@@ -39,6 +39,7 @@ function Sponsor() {
                     <section className = "padding-small"></section>
                     <button className="hero-button"><a style={{color:"#ffffff", textDecoration: "none"}}href="register">REGISTER YOUR INTEREST</a></button>
                 </section>
+
             </main>
             <section className = "padding-large"></section>
             <Footer></Footer>

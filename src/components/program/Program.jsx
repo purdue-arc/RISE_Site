@@ -30,9 +30,24 @@ function Program() {
             <section className="padding-large"></section>
 
             <LocationDetails/>
-            <Footer/>
-        </div>
-    );
+            <div class="item-row left-image">
+                <img src="https://placehold.co/400x400"
+                     alt="A group of people engaged in a discussion in front of a poster presentation at a robotics and AI expo"/>
+                <p>
+                    Each organization participating will have an allotted booth space and table to set up their poster, demo, and any additional material which showcases their innovative work. These personalized booths will be run for the entirety of the event, allowing for continuous engagement with attendees and more in-depth explanations of the displayed projects.
+                </p>
+            </div>
+            <div class="item-row right-image">
+                <img src="https://placehold.co/400x400"
+                     alt="A group of people posing for a photo at the RISE 2023 event, with a RISE 2023 poster in the background"/>
+                <p>
+                    There will be a total of 12 presentations lasting 10 minutes each, along with 5 additional minutes for Q&A. There will also be 3 Keynote Speakers, each of whom will receive 45 minutes, including the time for Q&A. The event will open and close with remarks from the RISE committee and affiliated individuals.
+                </p>
+            </div>
+    <Footer/>
+</div>
+)
+    ;
 }
 
 export default Program;
