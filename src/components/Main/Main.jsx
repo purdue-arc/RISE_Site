@@ -56,7 +56,7 @@ function Main() {
                 </p>
                 <div className="padding-small"></div>
                 <button className="hero-button-2"><a style={{color: "blue", textDecoration: "none"}}
-                                                   href="register">INFORMATION PACKET</a></button>
+                                                   href="/about">INFORMATION PACKET</a></button>
             </div>
             <Footer></Footer>
         </div>
