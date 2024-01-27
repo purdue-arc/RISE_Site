@@ -1,7 +1,21 @@
 import React from "react";
 import '../../Main.css';
+import Member from "../about/Member";
+import ImageDefault from "../assets/arclogo.png";
 //todo: change fonts of <p> classes to: Poppins
 function aboutRise() {
+    let members  = [];
+    const names =  ['Haddy Alchaer', 'Revanth', 'Mouli Sangita', 'Aytaj', 'Vijay Muthukumar', 'Edgar Babajanyan', 'Nithin Anand'];
+                        for(let i = 0; i < names.length; i++) {
+                           members.push(
+                            <div className="team-member">
+                                <Member
+                           name={names[i]} img={ImageDefault}
+                           />
+                            </div>
+                           );
+                        }
+                        
     return(
         <>
             <main class="landing-main">
@@ -32,6 +46,10 @@ function aboutRise() {
                             garnered significant attention from Purdue faculty and the broader research community,
                             including undergraduate and graduate students passionate about the field.
                         </p>
+                    </div>
+                   
+                    <div className="team-container">
+                        {members}
                     </div>
 
                     <div className="bluebox" style={{alignItems: 'center', height: '100%'}}>

@@ -85,6 +85,24 @@
   /* Adjust line height for better readability */
 }
 
+.team-container {
+  background: #002360;
+  /* -webkit-filter: drop-shadow(0 4px 4px rgba(0, 0, 0, .2)); */
+  /* filter: drop-shadow(0 4px 4px rgba(0, 0, 0, .2)); */
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+
+}
+
+.team-member {
+  background: #202020;
+  -webkit-filter: drop-shadow(0 4px 4px rgba(0, 0, 0, .2));
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, .2));
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
 
 .greybox p {
   margin: 0;

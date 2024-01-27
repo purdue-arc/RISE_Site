@@ -1,10 +1,9 @@
 // About.js
 import React from 'react';
-import '../../Main.css';
-import riseLogo from '../assets/riselogo.png';
 import Footer from '../../Footer';
+import '../../Main.css';
 import AboutRise from "../about-rise/AboutRise";
-
+import riseLogo from '../assets/riselogo.png';
 function About() {
     return (
         <div className="landing-page">
