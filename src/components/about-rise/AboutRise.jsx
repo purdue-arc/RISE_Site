@@ -4,17 +4,27 @@ import Member from "../about/Member";
 import ImageDefault from "../assets/arclogo.png";
 //todo: change fonts of <p> classes to: Poppins
 function aboutRise() {
-    let members  = [];
-    const names =  ['Haddy Alchaer', 'Revanth', 'Mouli Sangita', 'Aytaj', 'Vijay Muthukumar', 'Edgar Babajanyan', 'Nithin Anand'];
-                        for(let i = 0; i < names.length; i++) {
-                           members.push(
-                            <div className="team-member">
-                                <Member
-                           name={names[i]} img={ImageDefault}
-                           />
-                            </div>
-                           );
-                        }
+    let members= [];
+    const memberData = [
+        { name: 'Haddy Alchaer', role: 'ARC President', image: ImageDefault, personalLink: 'https://linkedin.com' },
+        { name: 'Revanth', role: 'ARC Vice President', image: ImageDefault, personalLink: 'https://linkedin.com' },
+        { name: 'Mouli Sangita', role: 'ARC Operations Chair', image: ImageDefault, personalLink: 'https://linkedin.com' },
+        { name: 'Aytaj', role: 'ARC Treasurer', image: ImageDefault, personalLink: 'https://linkedin.com' },
+        { name: 'Vijay Muthukumar', role: 'RISE Director', image: ImageDefault, personalLink: 'https://linkedin.com' },
+        { name: 'Edgar Babajanyan', role: 'Lead Developer', image: ImageDefault, personalLink: 'https://linkedin.com' },
+        { name: 'Nithin Anand', role: 'Lead Events Coordinator', image: ImageDefault, personalLink: 'https://linkedin.com' }
+    ];
+
+
+    for(let i = 0; i < memberData.length; i++) {
+       members.push(
+        <div className="team-member">
+            <Member
+       name={memberData[i].name} role = {memberData[i].role} img={memberData[i].image} link = {memberData[i].personalLink}
+       />
+        </div>
+       );
+    }
                         
     return(
         <>

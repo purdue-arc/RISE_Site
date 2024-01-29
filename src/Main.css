@@ -86,12 +86,14 @@
 }
 
 .team-container {
-  background: #002360;
+  background: transparent;
   /* -webkit-filter: drop-shadow(0 4px 4px rgba(0, 0, 0, .2)); */
   /* filter: drop-shadow(0 4px 4px rgba(0, 0, 0, .2)); */
   flex-wrap: wrap;
+  display: flex;
   justify-content: center;
-  padding: 20px;
+  margin: 10vh 0;
+  padding: 0 10vw;
 
 }
 
@@ -101,7 +103,14 @@
   filter: drop-shadow(0 4px 4px rgba(0, 0, 0, .2));
   flex-wrap: wrap;
   justify-content: center;
-  padding: 20px;
+  border-radius: 8px;
+  padding: 6vh 0;
+  margin: 2vh 1vw;
+}
+
+.team-member:hover {
+  transform: translateY(-2px);
+  opacity: 90%;
 }
 
 .greybox p {
