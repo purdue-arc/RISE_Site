@@ -57,7 +57,8 @@ function aboutRise() {
                             including undergraduate and graduate students passionate about the field.
                         </p>
                     </div>
-                   
+                    <div className= "padding-med"></div>
+                    <h1 className="title">ORGANIZING COMMITTEE</h1>
                     <div className="team-container">
                         {members}
                     </div>
