@@ -85,6 +85,33 @@
   /* Adjust line height for better readability */
 }
 
+.team-container {
+  background: transparent;
+  /* -webkit-filter: drop-shadow(0 4px 4px rgba(0, 0, 0, .2)); */
+  /* filter: drop-shadow(0 4px 4px rgba(0, 0, 0, .2)); */
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  margin: 10vh 0;
+  padding: 0 10vw;
+
+}
+
+.team-member {
+  background: #202020;
+  -webkit-filter: drop-shadow(0 4px 4px rgba(0, 0, 0, .2));
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, .2));
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 6vh 0;
+  margin: 2vh 1vw;
+}
+
+.team-member:hover {
+  transform: translateY(-2px);
+  opacity: 90%;
+}
 
 .greybox p {
   margin: 0;
