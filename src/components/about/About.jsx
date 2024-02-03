@@ -28,7 +28,7 @@ function About() {
                 <section className="hero">
                     <h3 className="other-text">ABOUT</h3>
                     <section className="padding-small"></section>
-                    <button className="hero-button"><a style={{color:"#ffffff", textDecoration: "none"}} href="registration">REGISTER YOUR INTEREST</a></button>
+                    {/*<button className="hero-button"><a style={{color:"#ffffff", textDecoration: "none"}} href="registration">REGISTER YOUR INTEREST</a></button>*/}
                 </section>
             </main>
             <section className="padding-large"></section>
