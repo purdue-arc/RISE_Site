@@ -21,6 +21,7 @@
     /* Path to your Space Age font file */
 }
 .rise-week-container {
+    padding: 5vh 0;
     margin: 5vh 10vw;
     background: #fff;
     font-family: 'Sansation', sans-serif; /* Adjusted to use Poppins as it seems to be your preferred font */
