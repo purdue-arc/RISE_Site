@@ -51,11 +51,12 @@
     font-size: 2vw;
     padding: 2vh 1vw;
     color: black;
+    border-bottom: 2px solid #000; /* Add bottom border to the day name */
 }
 
 .day-event {
     font-size: 1.7vw;
     color: black;
+    padding-top: 2vh; /* Add padding to separate from the day name */
 }
-
 /* Add your font face declarations here as before */
