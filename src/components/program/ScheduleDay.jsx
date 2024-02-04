@@ -1,3 +1,5 @@
+import Event from "./Event";
+
 const events = [
     { time: "9:00 AM", desc: "" },
     { time: "9:30 AM", desc: "3/30/2023" },
@@ -46,18 +48,15 @@ Event ends
 Keynote Speaker
 Lunch begins
 */
-
 function ScheduleDay() {
 
     return (
         <div class="lightbluebox">
-            <link rel="stylesheet" href="../program/css/table.css" />
             <h1>RISE | 3/30/2023 </h1>
-            <table class="table">
-                <tr>
-                    <th>Time</th>
-                    <th>Event</th>
-                </tr>
+            <table>
+                {for(let i = 0; i < 15; i++) {
+
+                }}
             </table>
         </div>
     );
