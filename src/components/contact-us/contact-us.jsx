@@ -7,7 +7,7 @@ import Footer from "../../Footer";
 
 function Contact() {
     return (
-        <div className="landing-adjust">
+        <div className="landing-page">
             <header className="landing-header">
                 <nav className="landing-nav">
                     <ul>
@@ -23,9 +23,29 @@ function Contact() {
                 </nav>
             </header>
             <section className="padding-med"></section>
-            <main className="landing-adjust">
+            <main className="landing-main">
+                <section className="hero">
+                    <h3 className="other-text">CONTACT US</h3>
+                </section>
+            </main>
+            <section className="padding-large"></section>
+            <div className="landing-adjust">
                 <div className="content-container">
-                    <h1 className="title">CONTACT RISE!</h1>
+                    <section className="table-section">
+                    <table>
+                        <tbody>
+                        <tr>
+                            <td>Cell 1</td>
+                            <td>Cell 2</td>
+                        </tr>
+                        <tr>
+                            <td>Cell 3</td>
+                            <td>Cell 4</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    </section>
+                    {/*<div className="content-container">
                     <div className="item-row left-image">
                         <img src="https://i.imgur.com/H0i31s4.png"/>
                         <p>
@@ -47,13 +67,14 @@ function Contact() {
                             msangita@purdue.edu
                         </p>
                     </div>
+                </div>*/}
                 </div>
-
-            </main>
+            </div>
             <section className="padding-large"></section>
             <Footer></Footer>
         </div>
-    );
+    )
+        ;
 }
 
 export default Contact;

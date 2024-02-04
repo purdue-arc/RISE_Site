@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../../../fonts/poppins/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Sansation';
+    src: url('../../../fonts/sansation/Sansation_Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Sansation-Bold';
+    src: url('../../../fonts/sansation/Sansation_Bold.ttf') format('truetype');
+}
+
+.tier-list {
+    background: #1b2735; /* Dark blue background */
+    color: #ffffff;
+    padding: 5vh 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4vh;
+    border: 2px solid #2e3f4f; /* Slightly lighter blue border */
+    font-family: 'Poppins', sans-serif;
+}
+
+.tier {
+    background: #243447; /* Tier background blue */
+    padding: 2vh 2vw;
+    width: 80%;
+    border: 1px solid #2e3f4f; /* Border color */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.tier-name {
+    font-family: 'Sansation-Bold', sans-serif;
+    font-size: 2em;
+    margin-bottom: 1vh;
+    color: #4a90e2; /* Bright blue for tier names */
+}
+
+.benefits {
+    font-family: 'Sansation', sans-serif;
+    border-left: 4px solid #4a90e2; /* Bright blue line */
+    padding-left: 2vw;
+}
+
+.benefit {
+    font-size: 1em;
+    padding: 1vh 0;
+    position: relative;
+}
+
+.benefit:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    left: -2vw;
+    bottom: 0;
+    width: calc(100% + 4vw);
+    border-bottom: 1px solid #2e3f4f; /* Horizontal line between benefits */
+}
+
+.cost {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    color: #4a90e2; /* Bright blue for costs */
+    padding-top: 1vh;
+    text-align: right;
+}
+.platinum {
+    color: #e5e4e2; /* Base color for platinum */
+    background: -webkit-linear-gradient(45deg, #e5e4e2, #b0b0b0, #e5e4e2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 0px 10px rgba(255,255,255,0.5);
+}
+
+/* Shiny Gold tier color */
+.gold {
+    color: #ffd700; /* Base color for gold */
+    background: -webkit-linear-gradient(45deg, #ffd700, #d4af37, #ffd700);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 0px 8px rgba(255,215,0,0.5);
+}
+
+/* Silver tier color */
+.silver {
+    color: #c0c0c0; /* Base color for silver */
+    background: -webkit-linear-gradient(45deg, #c0c0c0, #9e9e9e, #c0c0c0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 0px 6px rgba(192,192,192,0.5);
+}
+
+/* Participant tier color (assuming a blue color for participants) */
+.participant {
+    color: #4a90e2; /* A blue color for participants */
+}
+/* Add any additional styling here */
