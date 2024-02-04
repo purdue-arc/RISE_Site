@@ -368,6 +368,16 @@
   cursor: pointer;
 }
 
+.center-text {
+  background-color: #3871c1;
+}
+
+.exclusive-events {
+  color: white;
+  font-family: 'Sansation', sans-serif;
+  font-size: 7vw;
+}
+
 /* Responsive adjustments */
 @media (max-width: 600px) {
   .item-row {

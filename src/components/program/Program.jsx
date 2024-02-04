@@ -48,9 +48,13 @@ function Program() {
             <div className="center-text">
                 <h1 className="exclusive-events">EXCLUSIVE EVENTS</h1>
                 <h2 className="spotlight-day">SPOTLIGHT DAY</h2>
-                <p className="spotlight-description">A 4 hour session dedicated to each of our 3 Platinum Partners. 1 hour will be spent on a presentation showcasing the organization’s work, and the rest of the time is for networking exclusively with Purdue students and faculty.</p>
+                <p className="spotlight-description">
+                    A 4 hour session dedicated to each of our 3 Platinum Partners. 1 hour will be spent on a presentation showcasing the organization’s work, and the rest of the time is for networking exclusively with Purdue students and faculty.
+                </p>
                 <h2 className="prelude-session">PRELUDE SESSION</h2>
-                <p className="prelude-description">A session for Gold and Platinum Partners to showcase their work outside of RISE. Each Partner will have their own booth in a shared space in which they can display their demos and any additional material.</p>
+                <p className="prelude-description">
+                    A session for Gold and Platinum Partners to showcase their work outside of RISE. Each Partner will have their own booth in a shared space in which they can display their demos and any additional material.
+                </p>
             </div>
     <Footer/>
 </div>
