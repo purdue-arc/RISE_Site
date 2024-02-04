@@ -3,6 +3,7 @@ import '../../Main.css';
 import riseLogo from '../assets/riselogo.png' ;
 import Footer from "../../Footer";
 import LocationDetails from "./location-details/LocationDetails";
+import RiseWeek from "./rise-week/RiseWeek";
 function Program() {
     return (
         <div className="landing-page">
@@ -56,6 +57,7 @@ function Program() {
                     A session for Gold and Platinum Partners to showcase their work outside of RISE. Each Partner will have their own booth in a shared space in which they can display their demos and any additional material.
                 </p>
             </div>
+            <RiseWeek/>
     <Footer/>
 </div>
 )
