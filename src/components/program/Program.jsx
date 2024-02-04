@@ -46,7 +46,7 @@ function Program() {
                 </p>
             </div>
             <div className="center-text">
-                <h1 className="exclusive-events">EXCLUSIVE EVENTS</h1>
+                <h1 className="exclusive-events"><strong>EXCLUSIVE EVENTS</strong></h1>
                 <h2 className="spotlight-day">SPOTLIGHT DAY</h2>
                 <p className="spotlight-description">
                     A 4 hour session dedicated to each of our 3 Platinum Partners. 1 hour will be spent on a presentation showcasing the organization’s work, and the rest of the time is for networking exclusively with Purdue students and faculty.
