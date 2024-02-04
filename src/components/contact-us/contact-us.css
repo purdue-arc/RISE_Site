@@ -1,15 +1,3 @@
-.checkerboard-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 10px;
-    height: 100%;
-}
-
-.checkerboard-item {
-    padding: 20px;
-    text-align: center;
-}
 table {
     width: 100%;
     height: 100%;
