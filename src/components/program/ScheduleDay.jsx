@@ -46,15 +46,18 @@ Event ends
 Keynote Speaker
 Lunch begins
 */
+
 function ScheduleDay() {
 
     return (
         <div class="lightbluebox">
+            <link rel="stylesheet" href="../program/css/table.css" />
             <h1>RISE | 3/30/2023 </h1>
-            <table>
-                {for(let i = 0; i < 15; i++) {
-
-                }}
+            <table class="table">
+                <tr>
+                    <th>Time</th>
+                    <th>Event</th>
+                </tr>
             </table>
         </div>
     );

@@ -32,6 +32,20 @@
   height: 125vh;
 }
 
+th {
+  padding: 20px;
+  font-size: 50px;
+  color: white;
+}
+
+.table {
+  margin-left: auto;
+  padding: 20px;
+  margin-right: auto;
+  color: white;
+  border: 1px solid;
+  font-size: 50px;
+}
 
 .greybox {
   background-color: #BFC3C6;
