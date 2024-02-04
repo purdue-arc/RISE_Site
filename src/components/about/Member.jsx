@@ -9,7 +9,7 @@ function Member({ img, name, role, link }) {
     return (
         <div className="member-container" onClick={handleClick}>
             <img src={img} alt="ARC Member" />
-            <p>{name}</p>
+            <h1>{name}</h1>
             <p>{role}</p>
         </div>
     );

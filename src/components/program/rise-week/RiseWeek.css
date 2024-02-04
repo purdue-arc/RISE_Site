@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Sansation';
+    src: url('../../../fonts/sansation/Sansation_Regular.ttf') format('truetype');
+    /* Path to your sansation font file */
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../../../fonts/poppins/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Sansation-Light';
+    src: url('../../../fonts/sansation/Sansation_Light.ttf') format('truetype');
+    /* Path to your sansation font file */
+}
+
+@font-face {
+    font-family: 'Space Age';
+    src: url('../../../fonts/space_age/Space_Age.ttf') format('truetype');
+    /* Path to your Space Age font file */
+}
+.rise-week-container {
+    padding: 5vh 0;
+    margin: 5vh 10vw;
+    background: #fff;
+    font-family: 'Sansation', sans-serif; /* Adjusted to use Poppins as it seems to be your preferred font */
+}
+
+.title {
+    font-size: 4vw;
+    font-weight: bold;
+    margin-bottom: 24px;
+    color: #01a6e8;
+    text-decoration: underline;
+    text-align: center; /* Centers the title text */
+}
+
+.week-grid {
+    display: flex;
+    justify-content: space-between; /* This will space your days evenly */
+}
+
+.day {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the text inside each day column */
+    width: 18%; /* Adjust width accordingly to fit the grid */
+}
+
+.day-name {
+    font-size: 2vw;
+    padding: 2vh 1vw;
+    color: black;
+    border-bottom: 2px solid #000; /* Add bottom border to the day name */
+}
+
+.day-event {
+    font-size: 1.7vw;
+    color: black;
+    padding-top: 2vh; /* Add padding to separate from the day name */
+}
+/* Add your font face declarations here as before */

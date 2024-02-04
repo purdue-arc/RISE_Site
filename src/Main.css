@@ -33,6 +33,32 @@
 }
 
 
+td,
+th {
+  border-bottom: 1px solid;
+  padding-left: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+  color: white;
+}
+
+.table-internal {
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.table {
+  margin-left: auto;
+  padding: 20px;
+  margin-right: auto;
+  color: white;
+  border: 1px solid;
+  font-size: 25px;
+}
+
 .greybox {
   background-color: #BFC3C6;
   padding: 10vh;
@@ -50,6 +76,23 @@
   /* Adjust line height for better readability */
 }
 
+.lightbluebox {
+  background-color: #5680c9;
+  padding: 10vh;
+  color: white;
+  width: auto;
+  height: 145vh;
+  font-family: 'Sansation', sans-serif;
+  overflow-y: auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Subtle box shadow */
+  border-radius: 8px;
+  /* Slight border radius */
+  text-align: center;
+  /* Center-align text */
+  line-height: 1.6;
+  /* Adjust line height for better readability */
+}
 
 .bluebox {
   background-color: #002360;
@@ -98,19 +141,45 @@
 }
 
 .team-member {
-  background: #202020;
-  -webkit-filter: drop-shadow(0 4px 4px rgba(0, 0, 0, .2));
-  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, .2));
+
+  padding-top: 5px;
+  background-color: white;
+  -webkit-transition: background-color 1s;
+  -moz-transition: background-color 1s;
+  -ms-transition: background-color 1s;
+  -o-transition: background-color 1s;
+  transition: background-color 1s;
+  font-family: 'Sansation';
+  color: black;
   flex-wrap: wrap;
   justify-content: center;
   border-radius: 8px;
-  padding: 6vh 0;
-  margin: 2vh 1vw;
 }
 
 .team-member:hover {
+  box-shadow:
+    inset 0 0 50px #fff,
+    /* inner white */
+    inset 20px 0 80px #f0f,
+    /* inner left magenta short */
+    inset -20px 0 80px #0ff,
+    /* inner right cyan short */
+    inset 20px 0 300px #f0f,
+    /* inner left magenta broad */
+    inset -20px 0 300px #0ff,
+    /* inner right cyan broad */
+    0 0 50px #fff,
+    /* outer white */
+    -10px 0 80px #f0f,
+    /* outer left magenta */
+    10px 0 80px #0ff;
+  /* outer right cyan */
+
   transform: translateY(-2px);
   opacity: 90%;
+  -webkit-filter: drop-sha dow(0 4px 4px rgba(0, 0, 0, .2));
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, .2));
+  transition: all 0.5s ease-in-out;
 }
 
 .greybox p {
@@ -124,7 +193,7 @@
 
 .landing-header {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between; /* Aligns items to the start and end of the container */
   padding: 1vw;
   background: rgb(2, 14, 31);
   align-items: center;
@@ -135,7 +204,6 @@
   padding: 0;
   margin: 0;
   display: flex;
-  /* Align nav items in a row */
   align-items: center;
   height: 100%;
 }
@@ -149,25 +217,24 @@
   padding-right: 32vw;
 }
 
-.nav-link {
-  /* Adjust the size of your logo as necessary */
-  height: 4vh;
-  /* Example height for your logo */
-}
-
 .landing-nav ul li {
   height: 4vw;
-  margin-left: 3vw;
+  margin-left: 4.5vw;
 }
 
 .landing-nav ul li a {
   font-family: 'Sansation', sans-serif;
   font-size: 1vw;
   color: #ffffff;
+  transition: color 0.3s;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
   line-height: 4vw;
+}
+
+.landing-nav ul li a:hover {
+  color: #67a0d1; /* Change to the desired hover color */
 }
 
 .top-logos {
@@ -240,32 +307,29 @@
 .hero-button {
   font-family: 'Sansation', sans-serif;
   font-size: 1.25vw;
-  /* Increased the font size for better readability */
   color: #ffffff;
   background: #3871c1;
   text-decoration: none;
-  padding: 1vw 2vw;
-  /* Add some padding around the text */
+  padding: 0.5vw 2vw; /* Adjusted padding */
   border: none;
-  /* Removes the border */
   border-radius: 0.2vw;
-  /* Slightly rounded corners */
   box-shadow: 0.1vw 0.15vw 0.5vw black;
-  /* Subtle shadow to give depth */
   cursor: pointer;
-  /* Changes the cursor to indicate it's clickable */
-  transition: background-color 0.2s, box-shadow 0.2s;
-  /* Smooth transition for hover effects */
+  transition: background-color 0.2s, box-shadow 0.2s, line-height 0.2s; /* Added line-height to transition */
+  line-height: 2.5; /* Adjusted line-height for vertical centering */
 }
 
 .hero-button:hover,
 .hero-button:focus {
   background: #305ba7;
-  /* Darker shade on hover for feedback */
   box-shadow: 0.2vw 0.3vw 0.6vw black;
-  /* Slightly more pronounced shadow on hover */
   outline: none;
-  /* Removes the outline on focus, may need to provide alternative focus styles for accessibility */
+}
+
+.hero-button a {
+  color: inherit; /* Ensures link color matches button color */
+  text-decoration: none;
+  display: block; /* Makes the link fill the entire button */
 }
 
 .hero-button-2 {
@@ -299,6 +363,11 @@
   /* Removes the outline on focus, may need to provide alternative focus styles for accessibility */
 }
 
+.hero-button-2 a {
+  color: inherit; /* Ensures link color matches button color */
+  text-decoration: none;
+  display: block; /* Makes the link fill the entire button */
+}
 
 .padding-small {
   padding-top: 2vh;
@@ -316,7 +385,8 @@
 }
 
 .content-container {
-  background-color: #ebf8ff;
+  /* previously #ebf8ff */
+  background-color: white;
   padding: 40px;
   text-align: center;
 }
@@ -366,6 +436,48 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.center-text {
+  background-color: #3871c1;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.exclusive-events {
+  color: white;
+  font-family: 'Sansation', sans-serif;
+  font-size: 3vw;
+}
+
+.spotlight-day {
+  font-family: 'Sansation', sans-serif;
+  text-align: left;
+  margin-left: 150px;
+  color: #BFC3C6;
+}
+
+.spotlight-description {
+  font-family: 'Poppins', sans-serif;
+  text-align: justify;
+  margin-left: 150px;
+  margin-right: 150px;
+  color: white;
+}
+
+.prelude-session {
+  font-family: 'Sansation', sans-serif;
+  text-align: left;
+  margin-left: 150px;
+  color: #BFC3C6;
+}
+
+.prelude-description {
+  font-family: 'Poppins', sans-serif;
+  text-align: justify;
+  margin-left: 150px;
+  margin-right: 150px;
+  color: white;
 }
 
 /* Responsive adjustments */
