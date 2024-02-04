@@ -25,11 +25,13 @@ function Register() {
                     <h3 className="other-text">
                         REGISTRATION LINK:
                     </h3>
-                    <section className = "padding-small"></section>
-                    <button className="hero-button"><a style={{color:"#ffffff", textDecoration: "none"}}href="https://riseforms.purduearc.com">REGISTER HERE!</a></button>
+                    <section className="padding-small"></section>
+                    <a className="hero-button" href="https://riseforms.purduearc.com">
+                        REGISTER HERE!
+                    </a>
                 </section>
             </main>
-            <section className = "padding-large"></section>
+            <section className="padding-large"></section>
             <Footer></Footer>
         </div>
     );

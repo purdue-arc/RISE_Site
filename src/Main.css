@@ -193,7 +193,7 @@ th {
 
 .landing-header {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between; /* Aligns items to the start and end of the container */
   padding: 1vw;
   background: rgb(2, 14, 31);
   align-items: center;
@@ -204,7 +204,6 @@ th {
   padding: 0;
   margin: 0;
   display: flex;
-  /* Align nav items in a row */
   align-items: center;
   height: 100%;
 }
@@ -218,25 +217,24 @@ th {
   padding-right: 32vw;
 }
 
-.nav-link {
-  /* Adjust the size of your logo as necessary */
-  height: 4vh;
-  /* Example height for your logo */
-}
-
 .landing-nav ul li {
   height: 4vw;
-  margin-left: 3vw;
+  margin-left: 4.5vw;
 }
 
 .landing-nav ul li a {
   font-family: 'Sansation', sans-serif;
   font-size: 1vw;
   color: #ffffff;
+  transition: color 0.3s;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
   line-height: 4vw;
+}
+
+.landing-nav ul li a:hover {
+  color: #67a0d1; /* Change to the desired hover color */
 }
 
 .top-logos {
@@ -309,32 +307,29 @@ th {
 .hero-button {
   font-family: 'Sansation', sans-serif;
   font-size: 1.25vw;
-  /* Increased the font size for better readability */
   color: #ffffff;
   background: #3871c1;
   text-decoration: none;
-  padding: 1vw 2vw;
-  /* Add some padding around the text */
+  padding: 0.5vw 2vw; /* Adjusted padding */
   border: none;
-  /* Removes the border */
   border-radius: 0.2vw;
-  /* Slightly rounded corners */
   box-shadow: 0.1vw 0.15vw 0.5vw black;
-  /* Subtle shadow to give depth */
   cursor: pointer;
-  /* Changes the cursor to indicate it's clickable */
-  transition: background-color 0.2s, box-shadow 0.2s;
-  /* Smooth transition for hover effects */
+  transition: background-color 0.2s, box-shadow 0.2s, line-height 0.2s; /* Added line-height to transition */
+  line-height: 2.5; /* Adjusted line-height for vertical centering */
 }
 
 .hero-button:hover,
 .hero-button:focus {
   background: #305ba7;
-  /* Darker shade on hover for feedback */
   box-shadow: 0.2vw 0.3vw 0.6vw black;
-  /* Slightly more pronounced shadow on hover */
   outline: none;
-  /* Removes the outline on focus, may need to provide alternative focus styles for accessibility */
+}
+
+.hero-button a {
+  color: inherit; /* Ensures link color matches button color */
+  text-decoration: none;
+  display: block; /* Makes the link fill the entire button */
 }
 
 .hero-button-2 {
@@ -368,6 +363,11 @@ th {
   /* Removes the outline on focus, may need to provide alternative focus styles for accessibility */
 }
 
+.hero-button-2 a {
+  color: inherit; /* Ensures link color matches button color */
+  text-decoration: none;
+  display: block; /* Makes the link fill the entire button */
+}
 
 .padding-small {
   padding-top: 2vh;
@@ -436,6 +436,48 @@ th {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.center-text {
+  background-color: #3871c1;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.exclusive-events {
+  color: white;
+  font-family: 'Sansation', sans-serif;
+  font-size: 3vw;
+}
+
+.spotlight-day {
+  font-family: 'Sansation', sans-serif;
+  text-align: left;
+  margin-left: 150px;
+  color: #BFC3C6;
+}
+
+.spotlight-description {
+  font-family: 'Poppins', sans-serif;
+  text-align: justify;
+  margin-left: 150px;
+  margin-right: 150px;
+  color: white;
+}
+
+.prelude-session {
+  font-family: 'Sansation', sans-serif;
+  text-align: left;
+  margin-left: 150px;
+  color: #BFC3C6;
+}
+
+.prelude-description {
+  font-family: 'Poppins', sans-serif;
+  text-align: justify;
+  margin-left: 150px;
+  margin-right: 150px;
+  color: white;
 }
 
 /* Responsive adjustments */

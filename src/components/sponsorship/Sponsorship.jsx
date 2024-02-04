@@ -37,7 +37,7 @@ function Sponsor() {
                     <p className="hero-date">March 30th, 2024</p>
                     <p className="hero-location">Hosted at Purdue University</p>
                     <section className = "padding-small"></section>
-                    <button className="hero-button"><a style={{color:"#ffffff", textDecoration: "none"}}href="register">REGISTER YOUR INTEREST</a></button>
+                    <a className="hero-button" style={{ color: "#ffffff", textDecoration: "none" }} href="https://riseforms.purduearc.com">REGISTER YOUR INTEREST</a>
                 </section>
 
             </main>
