@@ -98,12 +98,4 @@
 .participant {
     color: #4a90e2; /* A blue color for participants */
 }
-
-.tier-inclusion-note {
-    color: #ffffff; /* White text color for readability */
-    font-size: 1em;
-    margin-top: 3vh; /* Spacing from the last tier */
-    text-align: center; /* Center the text */
-    opacity: 0.8; /* Slightly transparent for subtlety */
-    font-style: italic; /* Italicize for emphasis */
-}
+/* Add any additional styling here */
