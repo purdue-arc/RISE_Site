@@ -1,15 +1,23 @@
-.member-container{
+.member-container {
+
     width: 15vw;
     align-items: flex-start;
     justify-content: center;
 }
 
-.member-container img{
-    width: 12vw;
-    height: auto;
+
+.member-container img {
+
+    background: white;
+    border-radius: 50%;
+    width: 75%;
+    height: 75%;
     margin: 2vh 0;
+    clip-path: circle();
 }
 
-.member-container p{
+.member-container h1 {
+    background-size: cover;
+    padding: 20px;
     margin: 2vh 0;
 }
