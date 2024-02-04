@@ -2,6 +2,9 @@ import React from "react";
 import "../../Main.css";
 import riseLogo from "../assets/riselogo.png";
 import Footer from "../../Footer";
+import "../../Main.css";
+import riseLogo from "../assets/riselogo.png";
+import ScheduleDay from "./ScheduleDay";
 import LocationDetails from "./location-details/LocationDetails";
 function Program() {
   return (
