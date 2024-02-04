@@ -3,6 +3,7 @@ import '../../Main.css';
 import riseLogo from '../assets/riselogo.png' ;
 import Footer from "../../Footer";
 import LocationDetails from "./location-details/LocationDetails";
+import RiseWeek from "./rise-week/RiseWeek";
 function Program() {
     return (
         <div className="landing-page">
@@ -45,6 +46,7 @@ function Program() {
                     There will be a total of 12 presentations lasting 10 minutes each, along with 5 additional minutes for Q&A. There will also be 3 Keynote Speakers, each of whom will receive 45 minutes, including the time for Q&A. The event will open and close with remarks from the RISE committee and affiliated individuals.
                 </p>
             </div>
+            <RiseWeek/>
     <Footer/>
 </div>
 )
