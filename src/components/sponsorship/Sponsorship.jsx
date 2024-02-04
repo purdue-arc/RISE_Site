@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../Main.css';
-import TierList from "./tear-list/TierList"
+import TierList from "./tier-list/TierList"
 import riseLogo from '../assets/riselogo.png' ;
 import arcLogo from '../assets/arclogo.png' ;
 import purdueMessage from '../assets/purdue_message.png' ;

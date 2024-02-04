@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../../../fonts/poppins/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Sansation';
+    src: url('../../../fonts/sansation/Sansation_Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Sansation-Bold';
+    src: url('../../../fonts/sansation/Sansation_Bold.ttf') format('truetype');
+}
+
+.tier-list {
+    background: #282846; /* Dark background as in the image */
+    color: white;
+    padding: 5vh 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4vh; /* Space between tiers */
+    border: 2px solid #564f6f; /* Border color as in the image */
+    font-family: 'Poppins', sans-serif;
+}
+
+.tier {
+    background: #3f3a5a; /* Background for each tier */
+    padding: 2vh 2vw;
+    width: 80%; /* Adjust the width as necessary */
+    border: 1px solid #564f6f; /* Border color as in the image */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
+.tier-name {
+    font-family: 'Sansation-Bold', sans-serif;
+    font-size: 2em; /* Big and bold for tier names */
+    margin-bottom: 1vh;
+    color: #a7a2cc; /* Light purple as in the image */
+}
+
+.benefits {
+    font-family: 'Sansation', sans-serif;
+    border-left: 4px solid #6d67a3; /* Purple line as in the image */
+    padding-left: 2vw;
+}
+
+.benefit {
+    font-size: 1em;
+    padding: 1vh 0; /* Space between benefits */
+    position: relative;
+}
+
+.benefit:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    left: -2vw;
+    bottom: 0;
+    width: calc(100% + 4vw);
+    border-bottom: 1px solid #564f6f; /* Horizontal line between benefits */
+}
+
+.cost {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    color: #a7a2cc; /* Light purple as in the image */
+    padding-top: 1vh;
+    text-align: right;
+}
+
+/* Add any additional styling here */
