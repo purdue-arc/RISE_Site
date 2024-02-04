@@ -1,9 +1,9 @@
-function Event({ time, desc }) {
-  return (
-    <div>
-      {time} {desc}
-    </div>
-  );
+function Event({ desc }) {
+    return (
+        <div>
+            {desc}
+        </div>
+    );
 }
 
 export default Event;

@@ -32,10 +32,22 @@
   height: 125vh;
 }
 
+
+td,
 th {
-  padding: 20px;
-  font-size: 50px;
+  border-bottom: 1px solid;
+  padding-left: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
   color: white;
+}
+
+.table-internal {
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
 }
 
 .table {
@@ -44,7 +56,7 @@ th {
   margin-right: auto;
   color: white;
   border: 1px solid;
-  font-size: 50px;
+  font-size: 25px;
 }
 
 .greybox {
@@ -68,7 +80,8 @@ th {
   background-color: #5680c9;
   padding: 10vh;
   color: white;
-  height: calc(30vh - 40px);
+  width: auto;
+  height: 145vh;
   font-family: 'Sansation', sans-serif;
   overflow-y: auto;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
