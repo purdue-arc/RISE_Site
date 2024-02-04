@@ -368,6 +368,48 @@
   cursor: pointer;
 }
 
+.center-text {
+  background-color: #3871c1;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.exclusive-events {
+  color: white;
+  font-family: 'Sansation', sans-serif;
+  font-size: 3vw;
+}
+
+.spotlight-day {
+  font-family: 'Sansation', sans-serif;
+  text-align: left;
+  margin-left: 150px;
+  color: #BFC3C6;
+}
+
+.spotlight-description {
+  font-family: 'Poppins', sans-serif;
+  text-align: justify;
+  margin-left: 150px;
+  margin-right: 150px;
+  color: white;
+}
+
+.prelude-session {
+  font-family: 'Sansation', sans-serif;
+  text-align: left;
+  margin-left: 150px;
+  color: #BFC3C6;
+}
+
+.prelude-description {
+  font-family: 'Poppins', sans-serif;
+  text-align: justify;
+  margin-left: 150px;
+  margin-right: 150px;
+  color: white;
+}
+
 /* Responsive adjustments */
 @media (max-width: 600px) {
   .item-row {
