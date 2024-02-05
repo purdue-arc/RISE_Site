@@ -389,6 +389,12 @@ th {
   text-align: center;
 }
 
+.content-container-grey{
+  background-color: #e8e8e8;
+  padding: 40px;
+  text-align: center;
+}
+
 .title {
   font-family: 'Sansation', sans-serif;
   font-size: 4vw;

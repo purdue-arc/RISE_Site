@@ -24,7 +24,7 @@ function Contact() {
             </header>
             <section className="padding-med"></section>
             <main className="landing-adjust">
-                <div className="content-container">
+                <div className="content-container-grey">
                     <h1 className="title">CONTACT RISE!</h1>
                     <div className="item-row left-image">
                         <img src="https://i.imgur.com/H0i31s4.png"/>
