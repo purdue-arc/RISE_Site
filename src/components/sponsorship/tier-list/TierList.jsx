@@ -22,6 +22,9 @@ const TierList = () => {
             <Tier tierName="GOLD PARTNER" cost="$3,000+" benefits={["Prelude Session Slot", "Logo on Digital Promotion", "Logo on Merchandise"]} tierColor="gold" />
             <Tier tierName="SILVER PARTNER" cost="$1,000+" benefits={["Logo on Website", "Additional Booth Space"]} tierColor="silver" />
             <Tier tierName="RISE PARTICIPANT" cost="FREE" benefits={["Booth Space to Display Projects", "Application for Presentation Slot"]} tierColor="participant" />
+            <div className="tier-inclusion-note">
+                *All higher tier perks include the benefits of the previous tiers.
+            </div>
         </div>
     );
 };
