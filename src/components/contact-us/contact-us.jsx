@@ -10,42 +10,38 @@ import './contact-us.css'
 
 function MemberTable() {
     return (
-        <table className="my-table">
-            <tbody>
-            <tr>
-                <td>Revanth Senthil (ARC Vice President)</td>
-            </tr>
-            <tr>
-                <td>senthilr@purdue.edu</td>
-            </tr>
-            <tr>
-                <td>Aytaj Aslani (ARC treasurer)</td>
-            </tr>
-            <tr>
-                <td>aaslanli@purdue.edu</td>
-            </tr>
-            <tr>
-                <td>Vijay Muthukumar (Rise Director)</td>
-            </tr>
-            <tr>
-                <td>vmuthuku@purdue.edu</td>
-            </tr>
-            <tr>
-                <td>Haddy Alchaer (ARC President)</td>
-            </tr>
-            <tr>
-                <td>halchaer@purdue.edu</td>
-            </tr>
-            <tr>
-                <td>Mouli Sangita (ARC Operations Chair)</td>
-            </tr>
-            <tr>
-                <td>msangita@purdue.edu</td>
-            </tr>
-            </tbody>
-        </table>
+        <div className="member-table">
+            <div className="member-row">
+                <span className="member-name">Revanth Senthil</span>
+                <span className="member-role">ARC Vice President</span>
+                <span className="member-email">senthilr@purdue.edu</span>
+            </div>
+            {/* Repeat the member-row div for each member */}
+            <div className="member-row">
+                <span className="member-name">Aytaj Aslani</span>
+                <span className="member-role">ARC Treasurer</span>
+                <span className="member-email">aaslanli@purdue.edu</span>
+            </div>
+            <div className="member-row">
+                <span className="member-name">Vijay Muthukumar</span>
+                <span className="member-role">RISE Director</span>
+                <span className="member-email">vmuthuku@purdue.edu</span>
+            </div>
+            <div className="member-row">
+                <span className="member-name">Haddy Alchaer</span>
+                <span className="member-role">ARC President</span>
+                <span className="member-email">halchaer@purdue.edu</span>
+            </div>
+            <div className="member-row">
+                <span className="member-name">Mouli Sangita</span>
+                <span className="member-role">ARC Operations Chair</span>
+                <span className="member-email">msangita@purdue.edu</span>
+            </div>
+        </div>
     );
 }
+
+
 
 
 

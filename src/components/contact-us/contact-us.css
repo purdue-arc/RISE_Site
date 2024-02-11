@@ -47,3 +47,66 @@
     height: 100%; /* Ensure the container fills the available height */
 }
 
+.member-table {
+    font-family: 'Arial', sans-serif; /* Use a modern sans-serif font */
+    max-width: 600px; /* Max width for better readability */
+    margin: 0 auto; /* Center the table in the footer */
+    color: #FFFFFF; /* Text color, assuming a dark background */
+}
+
+.member-row {
+    margin-bottom: 1.5rem; /* Space between member entries */
+}
+
+.member-name,
+.member-role,
+.member-email {
+    display: block; /* Each item on its own line */
+    margin-bottom: 0.25rem; /* Space between name, role, and email */
+}
+
+.member-name {
+    font-weight: bold;
+    font-size: calc(1vw + 1vh); /* Slightly larger font size for names */
+    color: #FFFFFF; /* Name color */
+}
+
+.member-role {
+    font-size: calc(0.8vw + 0.7vh); /* Smaller font size for roles */
+    color: #B0B0B0; /* A lighter shade for the role */
+}
+
+.member-email {
+    font-size: calc(0.8vw + 0.7vh); /* Consistent font size for email */
+    color: #3871c1; /* Brand color for email */
+    text-decoration: none; /* Remove underline from emails */
+    margin-bottom: 1rem; /* Increase space after the email */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .member-table {
+        max-width: 100%; /* Full width on smaller screens */
+        padding: 0 2rem; /* Padding on the sides */
+    }
+    .member-name {
+        font-size: calc(1vw + 0.9vh); /* Adjust font size for smaller screens */
+    }
+}
+
+/* Hover effect for emails */
+.member-email {
+    text-decoration: underline; /* Add underline on hover for email links */
+    color: #b9b9b9; /* Darken the color on hover for better interaction feedback */
+}
+
+/* Add a general transition for smooth hover effects */
+.member-table a {
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+/* Accessibility improvements */
+.member-email:focus {
+    outline: 2px dashed #3871c1; /* Focus style for keyboard navigation */
+    outline-offset: 2px;
+}
