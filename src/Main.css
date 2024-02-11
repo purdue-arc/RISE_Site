@@ -73,11 +73,14 @@ th {
   line-height: 1.6;
   /* Adjust line height for better readability */
 }
+
+
+
 .info-packet-text{
   font-family: 'Poppins', sans-serif;
-  padding: 0 5vw;
-  font-size: 1.2vw !important;
+  font-size: calc(0.8vw + 0.8vh) !important;
 }
+
 
 .lightbluebox {
   background-color: #5680c9;
@@ -335,11 +338,11 @@ th {
 
 .hero-button-2 {
   font-family: 'Sansation-Bold', sans-serif;
-  font-size: 1.6vw;
+  font-size: calc(1vw + 1vh);
   background: #ffffff;
   text-decoration: none;
   opacity: 0.9;
-  padding: 1vw 2vw;
+  padding: calc(0.5vw + 0.7vh) calc(1vw + 1.5vh);
   /* Add some padding around the text */
   border: none;
   /* Removes the border */
