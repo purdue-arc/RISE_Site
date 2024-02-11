@@ -44,7 +44,7 @@ function Main() {
             <section className="padding-large"></section>
             <div className="greybox">
 
-                <p>
+                <p className="info-packet-text">
                     Created by the Autonomous Robotics Club (ARC) in partnership with the Institute for Networks,
                     Optimization, and Control (ICON), the Robotics and Intelligent Systems Expo (RISE) aims to be on the
                     frontier of showcasing innovation in the fields of robotics and autonomy. RISE's primary goal is to
@@ -55,7 +55,7 @@ function Main() {
                     and faculty at one of the top engineering institutions in the country.
                 </p>
                 <div className="padding-small"></div>
-                <button className="hero-button-2"><a style={{color: "blue", textDecoration: "none"}}
+                <button className="hero-button-2"><a style={{color: "#3871c1", textDecoration: "none"}}
                                                    href="/about">INFORMATION PACKET</a></button>
             </div>
             <Footer></Footer>

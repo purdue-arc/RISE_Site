@@ -63,9 +63,7 @@ th {
   background-color: #BFC3C6;
   padding: 10vh;
   color: black;
-  height: calc(30vh - 40px);
-  font-family: 'Sansation', sans-serif;
-  overflow-y: auto;
+  overflow-y: visible;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   /* Subtle box shadow */
   border-radius: 8px;
@@ -74,6 +72,11 @@ th {
   /* Center-align text */
   line-height: 1.6;
   /* Adjust line height for better readability */
+}
+.info-packet-text{
+  font-family: 'Poppins', sans-serif;
+  padding: 0 5vw;
+  font-size: 1.2vw !important;
 }
 
 .lightbluebox {
@@ -331,19 +334,17 @@ th {
 }
 
 .hero-button-2 {
-  font-family: 'Sansation', sans-serif;
-  font-size: 1.25vw;
-  /* Increased the font size for better readability */
-  color: #305ba7;
+  font-family: 'Sansation-Bold', sans-serif;
+  font-size: 1.6vw;
   background: #ffffff;
   text-decoration: none;
+  opacity: 0.9;
   padding: 1vw 2vw;
   /* Add some padding around the text */
   border: none;
   /* Removes the border */
-  border-radius: 0.2vw;
   /* Slightly rounded corners */
-  box-shadow: 0.1vw 0.15vw 0.5vw black;
+  box-shadow: 0.1vw 0.15vw 0.2vw rgba(0, 0, 0, 0.4);
   /* Subtle shadow to give depth */
   cursor: pointer;
   /* Changes the cursor to indicate it's clickable */
@@ -355,7 +356,8 @@ th {
 .hero-button:focus {
   background: #ffffff;
   /* Darker shade on hover for feedback */
-  box-shadow: 0.2vw 0.3vw 0.6vw black;
+  box-shadow: 0.2vw 0.3vw 0.6vw rgba(0, 0, 0, 0.4);
+  opacity: 1;
   /* Slightly more pronounced shadow on hover */
   outline: none;
   /* Removes the outline on focus, may need to provide alternative focus styles for accessibility */
