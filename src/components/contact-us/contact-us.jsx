@@ -69,7 +69,7 @@ function Contact() {
             <section className="padding-med"></section>
             <section className="padding-med"></section>
             <main className="landing-main">
-                <div className="other-text">SPONSORSHIP</div>
+                <div className="other-text">CONTACT US</div>
                 <section className="padding-large"></section>
             </main>
 
