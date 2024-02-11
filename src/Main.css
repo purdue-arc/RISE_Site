@@ -60,7 +60,7 @@ th {
 }
 
 .greybox {
-  background-color: #BFC3C6;
+  background: linear-gradient(to right, #BFC3C6, #e8e8e8);
   padding: 10vh 10vw;
   color: black;
   overflow-y: visible;
@@ -71,14 +71,13 @@ th {
   text-align: center;
   /* Center-align text */
   line-height: 1.6;
-  /* Adjust line height for better readability */
 }
-
 
 
 .info-packet-text{
   font-family: 'Poppins', sans-serif;
   font-size: calc(0.79vw + 0.78vh) !important;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -352,7 +351,6 @@ th {
   cursor: pointer;
   /* Changes the cursor to indicate it's clickable */
   transition: background-color 0.2s, box-shadow 0.2s;
-  /* Smooth transition for hover effects */
 }
 
 .hero-button-2:hover,
