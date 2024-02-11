@@ -488,4 +488,17 @@ th {
   color: #bfc3c6;
 }
 
-/* Media queries and other styles ... */
+.about-button {
+  border: none;
+  border-radius: 0.2vw;
+  box-shadow: 0.1vw 0.15vw 0.5vw black;
+  cursor: pointer;
+  transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+.about-button:hover,
+.about-button:focus {
+  background: #ffffff;
+  box-shadow: 0.2vw 0.3vw 0.6vw black;
+  outline: none;
+}
