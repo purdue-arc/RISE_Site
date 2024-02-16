@@ -38,7 +38,7 @@ function Main() {
                     <p className="hero-location">Hosted at Purdue University</p>
                     <section className="padding-small"></section>
                     <button className="hero-button"><a style={{color: "#ffffff", textDecoration: "none"}}
-                                                       href="register">REGISTER YOUR INTEREST</a></button>
+                                                       href="https://riseform.purduearc.com"}>REGISTER YOUR INTEREST</a></button>
                 </section>
             </main>
             <section className="padding-large"></section>
