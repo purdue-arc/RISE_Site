@@ -269,8 +269,9 @@ th {
   margin: 0;
 }
 
+
 .other-text {
-  font-family: "Sansation", sans-serif;
+  font-family: "Space Age", sans-serif;
   font-size: 7vw;
   /* Adjust the size as needed */
   color: #00a5e7;
@@ -279,11 +280,8 @@ th {
 }
 
 .hero-text .hero-number {
-  font-family: "Sansation", sans-serif;
-  font-size: 12vw;
-  color: #01a6e8;
-  text-shadow: #01a6e8 0 0 1vw;
-  /* Additional styling for the number '2' if necessary */
+  width:auto;
+  height:30vh;
 }
 
 .hero-date,
