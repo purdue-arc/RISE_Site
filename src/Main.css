@@ -263,10 +263,11 @@ th {
 
 .hero-text {
   font-family: "Sansation", sans-serif;
-  font-size: 12vw;
-  /* Adjust the size as needed */
+  font-size: 12vw; /* Adjust the size as needed */
   text-shadow: #3871c1 0 0 2vw;
   margin: 0;
+  display: flex; /* Use flexbox for alignment */
+  align-items: start; /* Align items vertically */
 }
 
 
@@ -280,8 +281,12 @@ th {
 }
 
 .hero-text .hero-number {
-  width:auto;
-  height:30vh;
+  width: auto;
+  height: 13.5vw; /* Set the height relative to the font size */
+}
+.hero-number{
+  margin-right: -2.6vw;
+
 }
 
 .hero-date,

@@ -4,7 +4,7 @@ import '../../Main.css';
 import arcLogo from '../assets/arclogo.png';
 import purdueMessage from '../assets/purdue_message.png';
 import riseLogo from '../assets/riselogo.png';
-import rise2 from '../assets/testAsset.png'
+import rise2 from '../assets/2_4.png'
 function Main() {
     return (
         <div className="landing-page">
@@ -33,7 +33,7 @@ function Main() {
                         ROBOTICS AND INTELLIGENCE SYSTEMS EXPO
                     </h2>
                     <h1 className="hero-text">
-                        R. I. <img src={rise2} className="hero-number" alt="rise2"></img> E.
+                        R. I. <img src={rise2} className="hero-number" alt="rise2"></img>. E.
                     </h1>
                     <p className="hero-date">March 30th, 2024</p>
                     <p className="hero-location">Hosted at Purdue University</p>
