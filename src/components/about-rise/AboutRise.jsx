@@ -2,6 +2,13 @@ import React from "react";
 import "../../Main.css";
 import Member from "../about/Member";
 import ImageDefault from "../assets/arcgearlogo.png";
+import Revanth from "../assets/Revanth.jpg";
+import Vijay from "../assets/Vijay.jpg";
+import Mouli from "../assets/Mouli.jpg";
+import Edgar_Temp from "../assets/Edgar_Temp.jpeg";
+import Nithin_Temp from "../assets/Nithin_Temp.jpeg";
+import Aytaj_Temp from "../assets/Aytaj_Temp.jpeg";
+
 //todo: change fonts of <p> classes to: Poppins
 function aboutRise() {
   let members = [];
@@ -10,43 +17,57 @@ function aboutRise() {
       name: "Haddy Alchaer",
       role: "ARC President",
       image: ImageDefault,
+      offset: 0,
+      zoom: 95,
       personalLink: "https://linkedin.com",
     },
     {
       name: "Revanth",
       role: "ARC Vice President",
-      image: ImageDefault,
-      personalLink: "https://linkedin.com",
+      image: Revanth,
+      offset: 12,
+      zoom: 170,
+      personalLink: "https://www.linkedin.com/in/revanth-senthilkumaran/",
     },
     {
       name: "Mouli Sangita",
       role: "ARC Operations Chair",
-      image: ImageDefault,
-      personalLink: "https://linkedin.com",
+      image: Mouli,
+      offset: 20,
+      zoom: 190,
+      personalLink: "https://www.linkedin.com/in/moulisangita/",
     },
     {
-      name: "Aytaj",
+      name: "Aytaj Aslanli",
       role: "ARC Treasurer",
-      image: ImageDefault,
-      personalLink: "https://linkedin.com",
+      image: Aytaj_Temp,
+      offset: 10,
+      zoom: 150,
+      personalLink: "https://www.linkedin.com/in/aytajaslanli/",
     },
     {
       name: "Vijay Muthukumar",
       role: "RISE Director",
-      image: ImageDefault,
-      personalLink: "https://linkedin.com",
+      image: Vijay,
+      offset: 22,
+      zoom: 200,
+      personalLink: "https://www.linkedin.com/in/vijay-muthukumar/",
     },
     {
       name: "Edgar Babajanyan",
       role: "Lead Developer",
-      image: ImageDefault,
-      personalLink: "https://linkedin.com",
+      image: Edgar_Temp,
+      offset: 2,
+      zoom: 120,
+      personalLink: "https://www.linkedin.com/in/edgar-babajanyan-a28230217/",
     },
     {
       name: "Nithin Anand",
       role: "Lead Events Coordinator",
-      image: ImageDefault,
-      personalLink: "https://linkedin.com",
+      image: Nithin_Temp,
+      offset: -7,
+      zoom: 140,
+      personalLink: "https://www.linkedin.com/in/nithin-anand-na2004/",
     },
   ];
 
@@ -57,6 +78,8 @@ function aboutRise() {
           name={memberData[i].name}
           role={memberData[i].role}
           img={memberData[i].image}
+          offset={memberData[i].offset}
+          zoom={memberData[i].zoom}
           link={memberData[i].personalLink}
         />
       </div>
