@@ -86,7 +86,7 @@ th {
 
 
 .lightbluebox {
-  background-color: #5680c9;
+  background-color: #3871c1;
   padding: 10vh;
   color: white;
   width: auto;
@@ -282,11 +282,13 @@ th {
   /* Adjust the size as needed */
   text-shadow: #3871c1 0 0 2vw;
   margin: 0;
+  display: flex; /* Use flexbox for alignment */
+  align-items: start; /* Align items vertically */
 }
 
 
 .other-text {
-  font-family: "Space Age", sans-serif;
+  font-family: "Sansation", sans-serif;
   font-size: 7vw;
   /* Adjust the size as needed */
   color: #00a5e7;

@@ -21,7 +21,7 @@ const events = [
 function ScheduleDay() {
     return (
         <div class="lightbluebox">
-            <h1>RISE | 3/30/2023 </h1>
+            <h1>RISE | 3/30/2024 </h1>
             <table className="table">
                 <tr className="table-internal">
                     <th >

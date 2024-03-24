@@ -1,23 +1,31 @@
 .member-container {
 
-    width: 15vw;
-    align-items: flex-start;
+    width: calc(15vh + 8vw);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 
-
-.member-container img {
-
+.image-container {
     background: white;
     border-radius: 50%;
-    width: 75%;
-    height: 75%;
+    height: calc(12vh + 6vw);
+    width: calc(12vh + 6vw); /* Adjust width to match height for a perfect circle */
+    display: flex;
+    justify-content: center;
     margin: 2vh 0;
-    clip-path: circle();
+    align-items: center;
+    overflow: hidden; /* Ensure the image does not spill outside the container */
 }
+
+
 
 .member-container h1 {
     background-size: cover;
-    padding: 20px;
-    margin: 2vh 0;
+    font-size: calc(1vw + 1vh);
+    margin: 0.5vh 0;
+}
+.member-container p {
+    font-size: calc(0.7vw + 0.7vh);
 }
