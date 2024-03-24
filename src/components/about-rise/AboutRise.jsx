@@ -8,6 +8,7 @@ import Mouli from "../assets/Mouli.jpg";
 import Edgar_Temp from "../assets/Edgar_Temp.jpeg";
 import Nithin_Temp from "../assets/Nithin_Temp.jpeg";
 import Aytaj_Temp from "../assets/Aytaj_Temp.jpeg";
+import Haddy from "../assets/Haddy.png"
 
 //todo: change fonts of <p> classes to: Poppins
 function aboutRise() {
@@ -16,7 +17,7 @@ function aboutRise() {
     {
       name: "Haddy Alchaer",
       role: "ARC President",
-      image: ImageDefault,
+      image: Haddy,
       offset: 0,
       zoom: 95,
       personalLink: "https://linkedin.com",
