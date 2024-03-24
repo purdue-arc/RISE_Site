@@ -6,6 +6,7 @@ import Revanth from "../assets/Revanth.jpg";
 import Vijay from "../assets/Vijay.jpg";
 import Mouli from "../assets/Mouli.jpg";
 import Edgar_Temp from "../assets/Edgar_Temp.jpeg";
+import Peter from "../assets/Peter.png";
 import Nithin_Temp from "../assets/Nithin_Temp.jpeg";
 import Aytaj_Temp from "../assets/Aytaj_Temp.jpeg";
 
@@ -68,6 +69,14 @@ function aboutRise() {
       offset: -7,
       zoom: 140,
       personalLink: "https://www.linkedin.com/in/nithin-anand-na2004/",
+    },
+    {
+      name: "Peter Kurto",
+      role: "Developer",
+      image: Peter,
+      offset: 5,
+      zoom: 135,
+      personalLink: "https://www.linkedin.com/in/peter-kurto-870660250/",
     },
   ];
 
