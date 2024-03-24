@@ -10,7 +10,7 @@ import Peter from "../assets/Peter.png";
 import Nithin_Temp from "../assets/Nithin_Temp.jpeg";
 import Aytaj_Temp from "../assets/Aytaj_Temp.jpeg";
 import Haddy from "../assets/Haddy.png"
-
+import Pranesh from '../assets/Pranesh.jpg'
 //todo: change fonts of <p> classes to: Poppins
 function aboutRise() {
   let members = [];
@@ -79,6 +79,14 @@ function aboutRise() {
       zoom: 135,
       personalLink: "https://www.linkedin.com/in/peter-kurto-870660250/",
     },
+    {
+      name: "Pranesh Monda",
+      role: "Developer",
+      image: Pranesh,
+      offset: 5,
+      zoom: 135,
+      personalLink: "https://www.linkedin.com/in/pranesh-monda/",
+    }
   ];
 
   for (let i = 0; i < memberData.length; i++) {
