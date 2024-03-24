@@ -11,6 +11,7 @@ import Nithin_Temp from "../assets/Nithin_Temp.jpeg";
 import Aytaj_Temp from "../assets/Aytaj_Temp.jpeg";
 import Haddy from "../assets/Haddy.png"
 import Pranesh from '../assets/Pranesh.jpg'
+import Kevin from '../assets/Kevin.jpg'
 //todo: change fonts of <p> classes to: Poppins
 function aboutRise() {
   let members = [];
@@ -86,7 +87,15 @@ function aboutRise() {
       offset: 5,
       zoom: 135,
       personalLink: "https://www.linkedin.com/in/pranesh-monda/",
-    }
+    },
+    {
+      name: "Kevin Huang",
+      role: "Developer",
+      image: Kevin,
+      offset: 0,
+      zoom: 150,
+      personalLink: "https://www.linkedin.com/in/kevin-t-huang/",
+    },
   ];
 
   for (let i = 0; i < memberData.length; i++) {
