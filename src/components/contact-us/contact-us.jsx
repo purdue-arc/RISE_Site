@@ -14,28 +14,28 @@ function MemberTable() {
             <div className="member-row">
                 <span className="member-name">Revanth Senthil</span>
                 <span className="member-role">ARC Vice President</span>
-                <span className="member-email">senthilr@purdue.edu</span>
+                <span className="member-email contact-email">senthilr@purdue.edu</span>
             </div>
             {/* Repeat the member-row div for each member */}
             <div className="member-row">
                 <span className="member-name">Aytaj Aslani</span>
                 <span className="member-role">ARC Treasurer</span>
-                <span className="member-email">aaslanli@purdue.edu</span>
+                <span className="member-email contact-email">aaslanli@purdue.edu</span>
             </div>
             <div className="member-row">
                 <span className="member-name">Vijay Muthukumar</span>
                 <span className="member-role">RISE Director</span>
-                <span className="member-email">vmuthuku@purdue.edu</span>
+                <span className="member-email contact-email">vmuthuku@purdue.edu</span>
             </div>
             <div className="member-row">
                 <span className="member-name">Haddy Alchaer</span>
                 <span className="member-role">ARC President</span>
-                <span className="member-email">halchaer@purdue.edu</span>
+                <span className="member-email contact-email">halchaer@purdue.edu</span>
             </div>
             <div className="member-row">
                 <span className="member-name">Mouli Sangita</span>
                 <span className="member-role">ARC Operations Chair</span>
-                <span className="member-email">msangita@purdue.edu</span>
+                <span className="member-email contact-email">msangita@purdue.edu</span>
             </div>
         </div>
     );
@@ -76,10 +76,11 @@ function Contact() {
                     </div>
                 </header>
                 <main className="main-content">
-                    <div className = "Title"
-                         style={{ color: '#3871c1', fontSize: '3vw' }}>
+                    <a href="mailto:autonomy@purdue.edu" className = "Title contact-email"
+                         style={{color: '#3871c1', fontSize: '3vw' }}>
                             autonomy@purdue.edu
-                    </div>
+
+                    </a>
                 </main>
                 <aside className="side-bar">
                     <div className = "Title" style={{ color: '#3871c1' }}>

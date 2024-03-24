@@ -4,7 +4,7 @@ import '../../Main.css';
 import arcLogo from '../assets/arclogo.png';
 import purdueMessage from '../assets/purdue_message.png';
 import riseLogo from '../assets/riselogo.png';
-import rise2 from '../assets/testAsset.png'
+import rise2 from '../assets/testAsset.png';
 function Main() {
     return (
         <div className="landing-page">
@@ -12,7 +12,7 @@ function Main() {
                 <nav className="landing-nav">
                     <ul>
                         <a href="/" className="header-logo-link">
-                            <img src={riseLogo} alt="Logo" className="header-logo"/>
+                            <img src={riseLogo} alt="Logo" className="header-logo" />
                         </a>
                         <li className="nav-link"><a href="/about">ABOUT</a></li>
                         <li className="nav-link"><a href="/registration">REGISTRATION</a></li>
@@ -25,21 +25,21 @@ function Main() {
             <section className="padding-med"></section>
             <main className="landing-main">
                 <section className="top-logos">
-                    <img src={arcLogo} alt="Logo" className="top-logo"/>
-                    <img src={purdueMessage} alt="Logo" className="top-logo"/>
+                    <img src={arcLogo} alt="Logo" className="top-logo" />
+                    <img src={purdueMessage} alt="Logo" className="top-logo" />
                 </section>
                 <section className="hero">
                     <h2 className="name-text">
                         ROBOTICS AND INTELLIGENCE SYSTEMS EXPO
                     </h2>
                     <h1 className="hero-text">
-                        R. I. <img src={rise2} className="hero-number" alt="rise2"></img> E.
+                        R. I. 2. E.
                     </h1>
                     <p className="hero-date">March 30th, 2024</p>
                     <p className="hero-location">Hosted at Purdue University</p>
                     <section className="padding-small"></section>
-                    <button className="hero-button"><a style={{color: "#ffffff", textDecoration: "none"}}
-                                                       href="/registration">REGISTER YOUR INTEREST</a></button>
+                    <button className="hero-button"><a style={{ color: "#ffffff", textDecoration: "none" }}
+                        href="/registration">REGISTER YOUR INTEREST</a></button>
                 </section>
             </main>
             <section className="padding-large"></section>
@@ -56,8 +56,8 @@ function Main() {
                     and faculty at one of the top engineering institutions in the country.
                 </p>
                 <div className="padding-small"></div>
-                <button className="hero-button-2"><a style={{color: "#3871c1", textDecoration: "none"}}
-                                                   href="/about">INFORMATION PACKET</a></button>
+                <button className="hero-button-2"><a style={{ color: "#3871c1", textDecoration: "none" }}
+                    href="/about">INFORMATION PACKET</a></button>
             </div>
             <Footer></Footer>
         </div>

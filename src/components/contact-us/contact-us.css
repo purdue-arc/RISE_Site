@@ -38,6 +38,7 @@
 
 
 .Title {
+    font-family: "Poppins", sans-serif;
     font-size: 3vw;
     text-align: center;
     text-decoration: none;
@@ -47,8 +48,17 @@
     height: 100%; /* Ensure the container fills the available height */
 }
 
+.contact-email {
+    text-decoration: underline;
+}
+
+.contact-email:hover{
+    text-shadow: 0px -2px 10px #0cf900;
+    transition: 0.3 ease-in-out all;
+}
+
 .member-table {
-    font-family: 'Arial', sans-serif; /* Use a modern sans-serif font */
+    font-family: 'Poppins', sans-serif; /* Use a modern sans-serif font */
     max-width: 600px; /* Max width for better readability */
     margin: 0 auto; /* Center the table in the footer */
     color: #FFFFFF; /* Text color, assuming a dark background */
