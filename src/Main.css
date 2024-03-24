@@ -277,7 +277,7 @@ th {
 }
 
 .hero-text {
-  font-family: "SF Mono";
+  font-family: "Sansation";
   font-size: 12vw;
   /* Adjust the size as needed */
   text-shadow: #3871c1 0 0 2vw;
@@ -298,7 +298,11 @@ th {
 
 .hero-text .hero-number {
   width: auto;
-  height: 30vh;
+  height: 13.5vw; /* Set the height relative to the font size */
+}
+.hero-number{
+  margin-right: -2.6vw;
+
 }
 
 .hero-date,

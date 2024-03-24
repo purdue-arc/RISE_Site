@@ -21,7 +21,7 @@ function aboutRise() {
       role: "ARC President",
       image: Haddy,
       offset: 0,
-      zoom: 95,
+      zoom: 105,
       personalLink: "https://linkedin.com",
     },
     {
