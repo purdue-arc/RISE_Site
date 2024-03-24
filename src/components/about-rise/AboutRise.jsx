@@ -85,7 +85,7 @@ function aboutRise() {
       role: "Developer",
       image: Pranesh,
       offset: 5,
-      zoom: 135,
+      zoom: 180,
       personalLink: "https://www.linkedin.com/in/pranesh-monda/",
     },
     {
