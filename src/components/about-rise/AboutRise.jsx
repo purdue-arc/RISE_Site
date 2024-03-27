@@ -59,7 +59,7 @@ function aboutRise() {
     },
     {
       name: "Aastha Patel",
-      role: "Role",
+      role: "Logistics & Outreach",
       image: Aastha,
       offset: 3,
       zoom: 115,
