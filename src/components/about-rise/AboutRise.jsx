@@ -12,6 +12,7 @@ import Aytaj_Temp from "../assets/Aytaj_Temp.jpeg";
 import Haddy from "../assets/Haddy.png"
 import Pranesh from '../assets/Pranesh.jpg'
 import Kevin from '../assets/Kevin.jpg'
+import Aastha from '../assets/aastha.jpg'
 //todo: change fonts of <p> classes to: Poppins
 function aboutRise() {
   let members = [];
@@ -57,12 +58,12 @@ function aboutRise() {
       personalLink: "https://www.linkedin.com/in/vijay-muthukumar/",
     },
     {
-      name: "Edgar Babajanyan",
-      role: "Lead Developer",
-      image: Edgar_Temp,
-      offset: 2,
-      zoom: 120,
-      personalLink: "https://www.linkedin.com/in/edgar-babajanyan-a28230217/",
+      name: "Aastha Patel",
+      role: "Role",
+      image: Aastha,
+      offset: 3,
+      zoom: 115,
+      personalLink: "https://www.linkedin.com/in/nithin-anand-na2004/",
     },
     {
       name: "Nithin Anand",
@@ -73,8 +74,16 @@ function aboutRise() {
       personalLink: "https://www.linkedin.com/in/nithin-anand-na2004/",
     },
     {
+      name: "Edgar Babajanyan",
+      role: "Lead Software Engineer",
+      image: Edgar_Temp,
+      offset: 2,
+      zoom: 120,
+      personalLink: "https://www.linkedin.com/in/edgar-babajanyan-a28230217/",
+    },
+    {
       name: "Peter Kurto",
-      role: "Developer",
+      role: "Software Engineer",
       image: Peter,
       offset: 5,
       zoom: 135,
@@ -82,7 +91,7 @@ function aboutRise() {
     },
     {
       name: "Pranesh Monda",
-      role: "Developer",
+      role: "Software Engineer",
       image: Pranesh,
       offset: 5,
       zoom: 180,
@@ -90,7 +99,7 @@ function aboutRise() {
     },
     {
       name: "Kevin Huang",
-      role: "Developer",
+      role: "Software Engineer",
       image: Kevin,
       offset: 0,
       zoom: 150,
