@@ -32,7 +32,6 @@
 .footer {
     grid-area: footer;
     background-color: #3871c1;
-    padding: 20px;
     color: white;
 }
 

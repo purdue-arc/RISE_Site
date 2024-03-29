@@ -95,8 +95,6 @@ function Contact() {
                     </div>
                 </footer>
             </div>
-
-
             <Footer></Footer>
         </div>
     )
